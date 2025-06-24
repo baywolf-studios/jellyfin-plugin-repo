@@ -1,4 +1,4 @@
-# Jellyfin monolith
+# Universal Plugin Repo
 ### Monolithic/Universal plugin repository for Jellyfin Media Server
 
 > [!NOTE]
