@@ -1,0 +1,20 @@
+{
+  "name": "jellyfin-monolith",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/0belous/jellyfin-monolith#readme",
+  "bugs": {
+    "url": "https://github.com/0belous/jellyfin-monolith/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0belous/jellyfin-monolith.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "update.js",
+  "scripts": {
+    "run": "echo \"Error: no test specified\" && exit 1"
+  }
+}
