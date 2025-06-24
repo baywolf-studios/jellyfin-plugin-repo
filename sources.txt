@@ -1,5 +1,5 @@
 https://intro-skipper.org/manifest.json
-https://raw.githubusercontent.com/bvolvy/CustomLogoPlugin/main/manifest.json
+https://raw.githubusercontent.com/ImLacy/Jellyfin-CustomLogo/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json
 https://raw.githubusercontent.com/vosmiic/jellyfin-ani-sync/master/manifest.json
 https://github.com/lachlandcp/jellyfin-editors-choice-plugin/raw/main/manifest.json
