@@ -1,5 +1,9 @@
-name: Node.js CI
-on: [push]
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -9,5 +13,4 @@ jobs:
       with:
         node-version: '20'
         cache: 'npm'
-    - run: npm install
-    - run: npm run
+    - run: node update.js
