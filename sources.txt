@@ -27,4 +27,3 @@ https://raw.githubusercontent.com/hexxone/TeleJelly/dist/manifest.json
 https://repo.xkrivo.net/jellyfin/manifest.json
 https://raw.githubusercontent.com/ryandash/jellyfin-plugin-myanimelist/main/manifest.json
 https://raw.githubusercontent.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/master/manifest.json
-https://raw.githubusercontent.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB/main/manifest.json
