@@ -1,9 +1,11 @@
-# Jellyfin monolith
-Monolithic/Universal plugin repository for Jellyfin Media Server
+# Universal Plugin Repo
+### Monolithic/Universal plugin repository for Jellyfin Media Server
 
-Merges 30 repositories with 50 plugins.
+> [!NOTE]
+> Updated every 24 hours, or when a change is pushed to this project
 
-Updated every 24 hours, or when a change is pushed.
+> [!CAUTION]
+> Some plugins require further configuration or software so be sure to read the respective READMEs to ensure they work correctly
 
 # Installation
 1. Open Jellyfin dashboard
@@ -12,8 +14,7 @@ Updated every 24 hours, or when a change is pushed.
 ```
 https://raw.githubusercontent.com/0belous/jellyfin-monolith/refs/heads/main/manifest.json
 ```
-4. Never have to add another repository again!
-
+4. Never add another repository again!
 
 
 # Contribution
