@@ -46,6 +46,7 @@ async function writeManifest(dataToWrite){
     } catch (err) {
         console.error('Error writing manifest file:', err);
     }
+    console.log(`\nSuccessfully created manifest.json with ${dataToWrite.length} total plugins`);
 }
 
 async function main() {
