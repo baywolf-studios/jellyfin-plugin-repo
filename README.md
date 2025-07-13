@@ -10,7 +10,8 @@
 # Installation
 1. Open Jellyfin dashboard
 2. Naviage to to catalogue settings
-3. Add this repository
+3. (Optional) Remove all old repositories including the default jellyfin, this speeds up catalogue loading
+4. Add the universal repository
 ```
 https://raw.githubusercontent.com/0belous/jellyfin-monolith/refs/heads/main/manifest.json
 ```
