@@ -13,7 +13,7 @@
 3. (Optional) Remove all old repositories including the default jellyfin, this speeds up catalogue loading
 4. Add the universal repository
 ```
-https://raw.githubusercontent.com/0belous/jellyfin-monolith/refs/heads/main/manifest.json
+https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/manifest.json
 ```
 4. Never add another repository again!
 
