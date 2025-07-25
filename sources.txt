@@ -40,7 +40,6 @@ https://raw.githubusercontent.com/crobibero/jellyfin-plugin-tmdb-trailers/master
 https://raw.githubusercontent.com/josdion/subbuzz/master/repo/jellyfin_10.10.json
 https://raw.githubusercontent.com/streamyfin/jellyfin-plugin-streamyfin/main/manifest.json
 https://raw.githubusercontent.com/AECX/FinTube/master/manifest.json
-https://raw.githubusercontent.com/Kuschel-code/JellyfinUpscalerPlugin/main/repository-jellyfin.json
 https://xzonn.top/JellyfinPluginDouban/manifest.json
 https://raw.githubusercontent.com/infinityofspace/jellyfin-alexa-plugin/master/manifest.json
 https://raw.githubusercontent.com/Viperinius/jellyfin-plugins/master/manifest.json
