@@ -1,5 +1,9 @@
-const fs = require('fs/promises'); 
+const fs = require('fs/promises');
+const path = require('path');
 const userAgent = "Jellyfin-Server/10.10.7"; // Required for some repositories
+
+const imagesDir = path.join(__dirname, 'images');
+const imageBaseUrl = 'https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/';
 
 async function getSources(){
     let sources = [];
@@ -35,6 +39,47 @@ async function getSources(){
     return mergedData; 
 }
 
+async function clearImagesFolder() {
+    try {
+        await fs.rm(imagesDir, { recursive: true, force: true });
+        await fs.mkdir(imagesDir, { recursive: true });
+    } catch (err) {
+        console.error('Error clearing images folder:', err);
+    }
+}
+
+async function downloadImage(url, filename) {
+    try {
+        const res = await fetch(url, { headers: { 'User-Agent': userAgent } });
+        if (!res.ok) throw new Error(`Failed to fetch image: ${res.status}`);
+        const buffer = await res.arrayBuffer();
+        await fs.writeFile(path.join(imagesDir, filename), Buffer.from(buffer));
+        return true;
+    } catch (err) {
+        console.error(`Error downloading image ${url}:`, err.message);
+        return false;
+    }
+}
+
+function getImageExtension(url) {
+    const ext = path.extname(new URL(url).pathname);
+    return ext || '.png';
+}
+
+async function processImages(pluginData) {
+    await clearImagesFolder();
+    for (const plugin of pluginData) {
+        if (plugin.imageUrl) {
+            const ext = getImageExtension(plugin.imageUrl);
+            const filename = `${plugin.id}${ext}`;
+            const success = await downloadImage(plugin.imageUrl, filename);
+            if (success) {
+                plugin.imageUrl = imageBaseUrl + filename;
+            }
+        }
+    }
+}
+
 async function writeManifest(dataToWrite){
     if (!dataToWrite || dataToWrite.length === 0) {
         console.log("No data to write to manifest. Aborting.");
@@ -50,7 +95,9 @@ async function writeManifest(dataToWrite){
 }
 
 async function main() {
-    await writeManifest(await getSources());
+    const plugins = await getSources();
+    await processImages(plugins);
+    await writeManifest(plugins);
 }
 
 main();
