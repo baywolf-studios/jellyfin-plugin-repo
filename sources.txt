@@ -51,3 +51,4 @@ https://raw.githubusercontent.com/Felitendo/jellyfin-plugin-lyrics/master/manife
 https://raw.githubusercontent.com/KeksBombe/jellyfin-plugin-auto-collections/refs/heads/main/manifest.json
 https://raw.githubusercontent.com/fallingrust/Jellyfin-Plugin-AdultsSubtitle/master/manifest.json
 https://raw.githubusercontent.com/SenorSmartyPants/jellyfin-plugin-refreshsparse/master/manifest.json
+https://raw.githubusercontent.com/johnpc/jellyfin-plugin-custom-javascript/refs/heads/main/manifest.json
