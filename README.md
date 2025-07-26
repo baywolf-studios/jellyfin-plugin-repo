@@ -7,6 +7,12 @@
 > [!CAUTION]
 > Some plugins require further configuration or software so be sure to read the respective READMEs to ensure they work correctly
 
+# Up to 3x faster catalogue loading 
+`(tested on server with gigabit connection, client with 10mbps download from server)`
+
+Before: 12 seconds to load items 3 seconds to load images, 5-6 seconds with cache<br>
+After: 4 seconds to load items 1 second to load images, 1-2 seconds with cache
+
 # Installation
 1. Open Jellyfin dashboard
 2. Naviage to to catalogue settings
