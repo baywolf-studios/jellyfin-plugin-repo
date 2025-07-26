@@ -1,5 +1,6 @@
 const fs = require('fs/promises');
 const path = require('path');
+const crypto = require('crypto');
 const userAgent = "Jellyfin-Server/10.10.7"; // Required for some repositories
 
 const imagesDir = path.join(__dirname, 'images');
@@ -49,6 +50,7 @@ async function clearImagesFolder() {
 }
 
 async function downloadImage(url, filename) {
+    console.log(`    -> Downloading image: ${url} as ${filename}`);
     try {
         const res = await fetch(url, { headers: { 'User-Agent': userAgent } });
         if (!res.ok) throw new Error(`Failed to fetch image: ${res.status}`);
@@ -66,15 +68,28 @@ function getImageExtension(url) {
     return ext || '.png';
 }
 
+function getPluginId(plugin) {
+    return plugin.id || plugin.Id || plugin.pluginId || plugin.name || null;
+}
+
+function hashString(str) {
+    return crypto.createHash('md5').update(str).digest('hex');
+}
+
 async function processImages(pluginData) {
     await clearImagesFolder();
     for (const plugin of pluginData) {
         if (plugin.imageUrl) {
             const ext = getImageExtension(plugin.imageUrl);
-            const filename = `${plugin.id}${ext}`;
+            let pluginId = getPluginId(plugin);
+            if (!pluginId) {
+                pluginId = hashString(plugin.imageUrl);
+            }
+            const filename = `${pluginId}${ext}`;
             const success = await downloadImage(plugin.imageUrl, filename);
             if (success) {
                 plugin.imageUrl = imageBaseUrl + filename;
+                console.log(`    -> Updated manifest imageUrl for plugin ${pluginId}`);
             }
         }
     }
@@ -92,6 +107,7 @@ async function writeManifest(dataToWrite){
         console.error('Error writing manifest file:', err);
     }
     console.log(`\nSuccessfully created manifest.json with ${dataToWrite.length} total plugins`);
+    console.log('Manifest updated with new image URLs.');
 }
 
 async function main() {
