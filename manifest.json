@@ -5923,6 +5923,13 @@
     "overview": "remoteupload",
     "versions": [
       {
+        "checksum": "14cb4ee6708b88dd2cd6885ea4de540d",
+        "changelog": "1.6 Release - Styling fix",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/GrandguyJS/media-upload-plugin/releases/download/1.6/plugin.zip",
+        "version": "1.6.0.0"
+      },
+      {
         "checksum": "4ccf2191906b9f72d47ff4da1d1214f0",
         "changelog": "1.5 Release - Interactive Directory Browsing in native Jellyfin style",
         "targetAbi": "10.9.9.0",
