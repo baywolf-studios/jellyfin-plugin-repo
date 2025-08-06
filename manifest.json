@@ -5473,6 +5473,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "10.10.0.3",
+        "changelog": "Fix library merge issue for movies in subfolders",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-mergeversions/releases/download/10.10.0.3/Jellyfin-Plugin-MergeVersions.zip",
+        "checksum": "93cd064ffc0474e874b82a5fceefde35",
+        "timestamp": "2025-08-05T17:15:00"
+      },
+      {
         "version": "10.10.0.2",
         "changelog": "Merge only when new versions available",
         "targetAbi": "10.10.0.0",
@@ -9716,6 +9724,14 @@
     "owner": "johnpc",
     "category": "General",
     "versions": [
+      {
+        "version": "0.0.0.2",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-custom-javascript/releases/tag/0.0.0.2)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-custom-javascript/releases/download/0.0.0.2/custom-javascript-0.0.0.2.zip",
+        "checksum": "d140d65a5b2860d5aaf12bb46ca9685f",
+        "timestamp": "2025-08-05T02:29:07Z"
+      },
       {
         "version": "0.0.0.1",
         "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-custom-javascript/releases/tag/0.0.0.1)\n",
