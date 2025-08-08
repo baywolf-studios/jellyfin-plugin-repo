@@ -9864,5 +9864,913 @@
         "timestamp": "2025-03-09T20:30:32Z"
       }
     ]
+  },
+  {
+    "category": "Metadata",
+    "guid": "af765402-cf54-4aa5-8fec-3ceb44fd8476",
+    "name": "Stash",
+    "description": "",
+    "owner": "DirtyRacer",
+    "overview": "",
+    "versions": [
+      {
+        "checksum": "68d04367c1d49880795c6de53c912e1e",
+        "changelog": "Added Support Jellyfin 10.9; Added Disambiguation Field to Performer Name; Minor Changes",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.Stash/releases/download/1.1.0.2/Jellyfin.Plugin.Stash.zip",
+        "timestamp": "2024-06-07T21:00:55Z",
+        "version": "1.1.0.2"
+      },
+      {
+        "checksum": "95cae6198346170ec56c025165962a56",
+        "changelog": "Initial release",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.Stash/releases/download/1.0.0.1/Jellyfin.Plugin.Stash.zip",
+        "timestamp": "2023-04-05T15:38:50Z",
+        "version": "1.0.0.1"
+      }
+    ]
+  },
+  {
+    "guid": "e41ef0c4-c413-41ba-b4fa-8c565dc3c969",
+    "name": "Themerr",
+    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB",
+    "overview": "Automatically add theme songs to movies and tv shows using ThemerrDB",
+    "owner": "LizardByte",
+    "category": "Metadata",
+    "image": "themerr-jellyfin.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Themerr.png",
+    "versions": [
+      {
+        "version": "2024.523.2124.32",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.523.2124.32/themerr-jellyfin.zip",
+        "checksum": "032f4780aac31526d30a556cbafdfb1f",
+        "timestamp": "2024-05-23T21:55:01Z"
+      },
+      {
+        "version": "2024.519.1836.29",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.519.1836.29/themerr-jellyfin.zip",
+        "checksum": "191891e95d57ba2c63e085634a612224",
+        "timestamp": "2024-05-19T18:37:41Z"
+      },
+      {
+        "version": "2024.519.1512.33",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.519.1512.33/themerr-jellyfin.zip",
+        "checksum": "d7ed00d15338e385b225e8a300e48e2e",
+        "timestamp": "2024-05-19T15:23:01Z"
+      },
+      {
+        "version": "2024.518.2054.48",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.2054.48/themerr-jellyfin.zip",
+        "checksum": "d36f1d416bb5f7f1f36fdda6db837027",
+        "timestamp": "2024-05-18T20:55:44Z"
+      },
+      {
+        "version": "2024.518.2043.13",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.2043.13/themerr-jellyfin.zip",
+        "checksum": "863d2f20a3ece66d2c2087d8d20f3700",
+        "timestamp": "2024-05-18T20:44:08Z"
+      },
+      {
+        "version": "2024.518.2031.24",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.2031.24/themerr-jellyfin.zip",
+        "checksum": "434b82136de3c0e729cac4286a49cf80",
+        "timestamp": "2024-05-18T20:32:31Z"
+      },
+      {
+        "version": "2024.518.2019.25",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.2019.25/themerr-jellyfin.zip",
+        "checksum": "7642ac0637394747c5c03f095ef37f45",
+        "timestamp": "2024-05-18T20:20:20Z"
+      },
+      {
+        "version": "2024.518.1833.47",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.1833.47/themerr-jellyfin.zip",
+        "checksum": "cb6fcef0af70a20e10223b8cf71b494f",
+        "timestamp": "2024-05-18T18:35:06Z"
+      },
+      {
+        "version": "2024.518.1505.3",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.1505.3/themerr-jellyfin.zip",
+        "checksum": "703334b02b9760a49c8a79edc673e9fe",
+        "timestamp": "2024-05-18T18:26:36Z"
+      },
+      {
+        "version": "2024.515.2109.23",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.515.2109.23/themerr-jellyfin.zip",
+        "checksum": "ff892d9bfb988d61ba4a47f17db10990",
+        "timestamp": "2024-05-15T21:10:43Z"
+      },
+      {
+        "version": "2024.515.232.46",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.515.232.46/themerr-jellyfin.zip",
+        "checksum": "05f406743b542c55680e3f6c88611665",
+        "timestamp": "2024-05-15T02:34:10Z"
+      },
+      {
+        "version": "2024.515.221.18",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.515.221.18/themerr-jellyfin.zip",
+        "checksum": "ca9e51391e422a84a13c989799653631",
+        "timestamp": "2024-05-15T02:22:34Z"
+      },
+      {
+        "version": "2024.514.151.24",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.514.151.24/themerr-jellyfin.zip",
+        "checksum": "ae16e7fe7d4a1e4b6b5a0e986448ce9c",
+        "timestamp": "2024-05-14T01:52:22Z"
+      },
+      {
+        "version": "2024.514.143.19",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.514.143.19/themerr-jellyfin.zip",
+        "checksum": "bee2ce1519af7cc86a0a081a0df13879",
+        "timestamp": "2024-05-14T01:44:15Z"
+      },
+      {
+        "version": "2024.514.137.50",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.514.137.50/themerr-jellyfin.zip",
+        "checksum": "156ba6fcc2b449130a033eaeda13dbf9",
+        "timestamp": "2024-05-14T01:39:09Z"
+      },
+      {
+        "version": "2024.514.129.10",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.514.129.10/themerr-jellyfin.zip",
+        "checksum": "a086180ca8e2dcfd36b10fb1685305e7",
+        "timestamp": "2024-05-14T01:30:19Z"
+      },
+      {
+        "version": "2024.513.2336.57",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.513.2336.57/themerr-jellyfin.zip",
+        "checksum": "06c18ea3dff6351db6f58a8527b3ea88",
+        "timestamp": "2024-05-13T23:38:02Z"
+      },
+      {
+        "version": "2024.511.1724.56",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.511.1724.56/themerr-jellyfin.zip",
+        "checksum": "d1ca7eb895cb862421f58ec3552531a2",
+        "timestamp": "2024-05-11T17:26:10Z"
+      },
+      {
+        "version": "2024.511.34.40",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.511.34.40/themerr-jellyfin.zip",
+        "checksum": "86197663cf007db6770dbcffa4e7dc3f",
+        "timestamp": "2024-05-11T00:35:52Z"
+      },
+      {
+        "version": "2024.510.2327.42",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2327.42/themerr-jellyfin.zip",
+        "checksum": "c3e6f4758e0cf5b0748e1d10e02af033",
+        "timestamp": "2024-05-10T23:28:51Z"
+      },
+      {
+        "version": "2024.510.2320.6",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2320.6/themerr-jellyfin.zip",
+        "checksum": "38c9efe05fba9814f48104844ef11a5f",
+        "timestamp": "2024-05-10T23:21:03Z"
+      },
+      {
+        "version": "2024.510.2258.28",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2258.28/themerr-jellyfin.zip",
+        "checksum": "8327bc65680fccf88877f60fb7f307ae",
+        "timestamp": "2024-05-10T22:59:43Z"
+      },
+      {
+        "version": "2024.510.2226.2",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2226.2/themerr-jellyfin.zip",
+        "checksum": "d2f85146174b48cedcbfcc5f3ab0f7da",
+        "timestamp": "2024-05-10T22:26:56Z"
+      },
+      {
+        "version": "2024.510.2200.22",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2200.22/themerr-jellyfin.zip",
+        "checksum": "67496aeaff807581ebcbc4744184a043",
+        "timestamp": "2024-05-10T22:01:35Z"
+      },
+      {
+        "version": "2024.510.2148.54",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2148.54/themerr-jellyfin.zip",
+        "checksum": "f4bc4629211cdee5f117a62f2bf1deb2",
+        "timestamp": "2024-05-10T21:50:03Z"
+      },
+      {
+        "version": "2024.510.2120.23",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2120.23/themerr-jellyfin.zip",
+        "checksum": "76ad8c92dcd72025182b6b2b67854a2d",
+        "timestamp": "2024-05-10T21:21:26Z"
+      },
+      {
+        "version": "2024.510.2003.50",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2003.50/themerr-jellyfin.zip",
+        "checksum": "3c5efb3d5b7218de1aa221bed88acb1b",
+        "timestamp": "2024-05-10T20:05:03Z"
+      },
+      {
+        "version": "2024.510.1948.49",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.1948.49/themerr-jellyfin.zip",
+        "checksum": "29506e8a1f87bdfba3a41df34b6c95dc",
+        "timestamp": "2024-05-10T19:50:29Z"
+      },
+      {
+        "version": "2024.510.1932.47",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.1932.47/themerr-jellyfin.zip",
+        "checksum": "d8eca57b890c8bdbd533c5f9577e96d9",
+        "timestamp": "2024-05-10T19:34:02Z"
+      },
+      {
+        "version": "2024.504.1503.23",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.504.1503.23/themerr-jellyfin.zip",
+        "checksum": "bf0719dfc1f56f0b0c3530e64be6092a",
+        "timestamp": "2024-05-04T15:04:35Z"
+      },
+      {
+        "version": "2024.419.48.57",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.419.48.57/themerr-jellyfin.zip",
+        "checksum": "12cce084987a7d3549ce43feeb005c8d",
+        "timestamp": "2024-04-19T00:50:06Z"
+      },
+      {
+        "version": "2024.325.1706.30",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.325.1706.30/themerr-jellyfin.zip",
+        "checksum": "8bba0d74c16aea465379c94d0b62d5a8",
+        "timestamp": "2024-03-25T17:07:42Z"
+      },
+      {
+        "version": "2024.324.2113.53",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.2113.53/themerr-jellyfin.zip",
+        "checksum": "752e4f174598f06d9593db53316a5b51",
+        "timestamp": "2024-03-24T21:14:53Z"
+      },
+      {
+        "version": "2024.324.1956.40",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1956.40/themerr-jellyfin.zip",
+        "checksum": "2053ba6adb29c23935b1a68de09bc4eb",
+        "timestamp": "2024-03-24T19:57:44Z"
+      },
+      {
+        "version": "2024.324.1949.50",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1949.50/themerr-jellyfin.zip",
+        "checksum": "f04b51a12b591b5a1ce60a4a498aece7",
+        "timestamp": "2024-03-24T19:50:55Z"
+      },
+      {
+        "version": "2024.324.1933.37",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1933.37/themerr-jellyfin.zip",
+        "checksum": "81777235766ae4ab931fef585f18d8db",
+        "timestamp": "2024-03-24T19:34:39Z"
+      },
+      {
+        "version": "2024.324.1924.50",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1924.50/themerr-jellyfin.zip",
+        "checksum": "a871893d1041c8ec60632f9c917c8b86",
+        "timestamp": "2024-03-24T19:25:49Z"
+      },
+      {
+        "version": "2024.324.1904.42",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1904.42/themerr-jellyfin.zip",
+        "checksum": "87e9b775c23e6e84c0af731fb56566c1",
+        "timestamp": "2024-03-24T19:05:39Z"
+      },
+      {
+        "version": "2024.324.1744.11",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1744.11/themerr-jellyfin.zip",
+        "checksum": "6621db4a7bd1f26bc1d360b8d026749f",
+        "timestamp": "2024-03-24T17:45:06Z"
+      },
+      {
+        "version": "2024.324.1720.15",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1720.15/themerr-jellyfin.zip",
+        "checksum": "ef7957df49e2c0bb0543df09dd4c5ea1",
+        "timestamp": "2024-03-24T17:21:13Z"
+      },
+      {
+        "version": "2024.324.1710.53",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1710.53/themerr-jellyfin.zip",
+        "checksum": "372c78cb7ebb528167f11ac280e96017",
+        "timestamp": "2024-03-24T17:11:51Z"
+      },
+      {
+        "version": "2024.324.233.40",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.233.40/themerr-jellyfin.zip",
+        "checksum": "2276f4c85539f990826b045addf0a7e8",
+        "timestamp": "2024-03-24T02:34:38Z"
+      },
+      {
+        "version": "2024.323.2314.44",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.323.2314.44/themerr-jellyfin.zip",
+        "checksum": "d5a3896f93755eef1efc38780e00cb45",
+        "timestamp": "2024-03-23T23:16:13Z"
+      },
+      {
+        "version": "2024.210.232.20",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.210.232.20/themerr-jellyfin.zip",
+        "checksum": "ab726f1939a016fb40ade8eb72c72b74",
+        "timestamp": "2024-02-10T02:33:27Z"
+      },
+      {
+        "version": "2024.201.1515.56",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.201.1515.56/themerr-jellyfin.zip",
+        "checksum": "357eb95e01663c202f1ce0db4d1496b5",
+        "timestamp": "2024-02-01T15:17:13Z"
+      },
+      {
+        "version": "2024.201.1507.40",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.201.1507.40/themerr-jellyfin.zip",
+        "checksum": "60952b73b8fdf30097715143b8500644",
+        "timestamp": "2024-02-01T15:09:13Z"
+      },
+      {
+        "version": "2024.201.1449.56",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.201.1449.56/themerr-jellyfin.zip",
+        "checksum": "18a5dadcb02f06a45840c81a65f2985a",
+        "timestamp": "2024-02-01T15:06:06Z"
+      },
+      {
+        "version": "2024.113.1544.53",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.113.1544.53/themerr-jellyfin.zip",
+        "checksum": "aace32dbe6b86ecf41d86b27dda52165",
+        "timestamp": "2024-01-13T15:46:11Z"
+      },
+      {
+        "version": "2024.113.351.4",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.113.351.4/themerr-jellyfin.zip",
+        "checksum": "33e352c5a0192c724ff9b5d61ae890e9",
+        "timestamp": "2024-01-13T03:52:28Z"
+      },
+      {
+        "version": "2024.113.341.39",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.113.341.39/themerr-jellyfin.zip",
+        "checksum": "1ada7d44122d56aa24abd2a14accc9e2",
+        "timestamp": "2024-01-13T03:43:04Z"
+      },
+      {
+        "version": "2024.113.327.29",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.113.327.29/themerr-jellyfin.zip",
+        "checksum": "5bf15d87e98fb816bd86c827beae1d71",
+        "timestamp": "2024-01-13T03:28:48Z"
+      },
+      {
+        "version": "2024.112.1746.25",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.112.1746.25/themerr-jellyfin.zip",
+        "checksum": "d5642486e5ec93090946cfeaade6eca8",
+        "timestamp": "2024-01-12T17:47:59Z"
+      },
+      {
+        "version": "2024.112.249.37",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.112.249.37/themerr-jellyfin.zip",
+        "checksum": "77bd1cd16c7eda686329f7995f08350b",
+        "timestamp": "2024-01-12T02:50:55Z"
+      },
+      {
+        "version": "2023.1226.2254.10",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1226.2254.10/themerr-jellyfin.zip",
+        "checksum": "562f22059f196dc0fae2d7de83dfd667",
+        "timestamp": "2023-12-26T22:55:22Z"
+      },
+      {
+        "version": "2023.1226.2220.18",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1226.2220.18/themerr-jellyfin.zip",
+        "checksum": "5aa7562b2333b62db6c4e822c9fd7208",
+        "timestamp": "2023-12-26T22:21:29Z"
+      },
+      {
+        "version": "2023.1226.2207.46",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1226.2207.46/themerr-jellyfin.zip",
+        "checksum": "653d3cced65ad7967e9a1f91baa1389a",
+        "timestamp": "2023-12-26T22:09:03Z"
+      },
+      {
+        "version": "2023.1226.2114.6",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1226.2114.6/themerr-jellyfin.zip",
+        "checksum": "12c3f809c33f59fa8ee1084e66f0f3c1",
+        "timestamp": "2023-12-26T21:15:19Z"
+      },
+      {
+        "version": "2023.1222.58.35",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1222.58.35/themerr-jellyfin.zip",
+        "checksum": "d00f7c42ade44eae468cebf3db104ac5",
+        "timestamp": "2023-12-22T00:59:55Z"
+      },
+      {
+        "version": "2023.1221.2316.50",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1221.2316.50/themerr-jellyfin.zip",
+        "checksum": "aacba2db3465b8c38e74b363b261ad22",
+        "timestamp": "2023-12-21T23:17:55Z"
+      },
+      {
+        "version": "2023.1221.2211.0",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1221.2211.0/themerr-jellyfin.zip",
+        "checksum": "bf1c2c1f23be6389885c6b12a3ae2d4a",
+        "timestamp": "2023-12-21T22:14:02Z"
+      },
+      {
+        "version": "2023.1221.347.52",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1221.347.52/themerr-jellyfin.zip",
+        "checksum": "a39eb7a05052837aa476d4491e4800e6",
+        "timestamp": "2023-12-21T03:48:56Z"
+      },
+      {
+        "version": "2023.1220.2206.28",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1220.2206.28/themerr-jellyfin.zip",
+        "checksum": "0365a24ee21a8a2df3cbd55e644d3471",
+        "timestamp": "2023-12-20T22:07:48Z"
+      },
+      {
+        "version": "2023.1220.18.5",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1220.18.5/themerr-jellyfin.zip",
+        "checksum": "3455f10a1a483e787cae77eb16362756",
+        "timestamp": "2023-12-20T00:21:07Z"
+      },
+      {
+        "version": "2023.1219.1658.23",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1219.1658.23/themerr-jellyfin.zip",
+        "checksum": "87a9bf415f018fd566ab8b6bbbaec607",
+        "timestamp": "2023-12-19T17:00:11Z"
+      },
+      {
+        "version": "2023.1219.355.10",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1219.355.10/themerr-jellyfin.zip",
+        "checksum": "f0f7a7519265043a7a112d4b9d6547b1",
+        "timestamp": "2023-12-19T03:56:41Z"
+      },
+      {
+        "version": "2023.1217.1356.39",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1217.1356.39/themerr-jellyfin.zip",
+        "checksum": "22cb22bf2d89cb16b0562f792c02a7be",
+        "timestamp": "2023-12-17T13:57:50Z"
+      },
+      {
+        "version": "2023.1216.556.16",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1216.556.16/themerr-jellyfin.zip",
+        "checksum": "350d208cafcf387bf1b01622059aa61a",
+        "timestamp": "2023-12-16T05:57:35Z"
+      },
+      {
+        "version": "2023.1215.2259.6",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1215.2259.6/themerr-jellyfin.zip",
+        "checksum": "81340accae45f2ba31742e5fcf325a9a",
+        "timestamp": "2023-12-15T23:34:28Z"
+      },
+      {
+        "version": "2023.1215.317.17",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1215.317.17/themerr-jellyfin.zip",
+        "checksum": "66984acd8b1b3875102a1a7c23078c92",
+        "timestamp": "2023-12-15T03:18:36Z"
+      },
+      {
+        "version": "2023.1215.251.32",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1215.251.32/themerr-jellyfin.zip",
+        "checksum": "c28159d66d1c9c736825208bc8d2846d",
+        "timestamp": "2023-12-15T02:52:39Z"
+      },
+      {
+        "version": "2023.1215.241.3",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1215.241.3/themerr-jellyfin.zip",
+        "checksum": "60cfa83e4d5512bd11c89a9e2d5a1123",
+        "timestamp": "2023-12-15T02:43:56Z"
+      },
+      {
+        "version": "2023.1215.221.13",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1215.221.13/themerr-jellyfin.zip",
+        "checksum": "6f2604e7f881a165c5f8cbc71042c480",
+        "timestamp": "2023-12-15T02:23:02Z"
+      },
+      {
+        "version": "2023.1214.436.9",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1214.436.9/themerr-jellyfin.zip",
+        "checksum": "4de037af126746757be49828cf959bad",
+        "timestamp": "2023-12-14T04:37:42Z"
+      },
+      {
+        "version": "2023.1212.418.27",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1212.418.27/themerr-jellyfin.zip",
+        "checksum": "ee130b648bcb7c74fae9fec70c9ec4cc",
+        "timestamp": "2023-12-12T04:19:50Z"
+      },
+      {
+        "version": "2023.1211.1611.20",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.1611.20/themerr-jellyfin.zip",
+        "checksum": "ef2fdca5f7bd88493e93a58029d8418a",
+        "timestamp": "2023-12-11T16:30:54Z"
+      },
+      {
+        "version": "2023.1211.245.52",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.245.52/themerr-jellyfin.zip",
+        "checksum": "b7f2637db3a4694955ed4bbcd4c9c19b",
+        "timestamp": "2023-12-11T02:47:11Z"
+      },
+      {
+        "version": "2023.1211.237.12",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.237.12/themerr-jellyfin.zip",
+        "checksum": "e8b1a241737eb39eff36ebc0fc906c44",
+        "timestamp": "2023-12-11T02:38:26Z"
+      },
+      {
+        "version": "2023.1211.225.23",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.225.23/themerr-jellyfin.zip",
+        "checksum": "0bf48136fc530c98563469a960e4c19e",
+        "timestamp": "2023-12-11T02:30:44Z"
+      },
+      {
+        "version": "2023.1211.214.5",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.214.5/themerr-jellyfin.zip",
+        "checksum": "b1d522b82d1ff61011d6ab5eb608c8e5",
+        "timestamp": "2023-12-11T02:28:41Z"
+      },
+      {
+        "version": "2023.1211.149.9",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.149.9/themerr-jellyfin.zip",
+        "checksum": "5545765d4ecdef53a4bb10a691a610ed",
+        "timestamp": "2023-12-11T01:50:10Z"
+      },
+      {
+        "version": "2023.1211.105.6",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.105.6/themerr-jellyfin.zip",
+        "checksum": "525009c41a0e4ef93f7ff5a200aae942",
+        "timestamp": "2023-12-11T01:06:15Z"
+      },
+      {
+        "version": "2023.1211.31.24",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.31.24/themerr-jellyfin.zip",
+        "checksum": "99c8fcdac073a054cb192afc45508702",
+        "timestamp": "2023-12-11T00:32:36Z"
+      },
+      {
+        "version": "2023.1210.1448.35",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1210.1448.35/themerr-jellyfin.zip",
+        "checksum": "db79880e1f6677c04c781c61fc1f82f9",
+        "timestamp": "2023-12-10T14:54:13Z"
+      },
+      {
+        "version": "2023.1210.504.40",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1210.504.40/themerr-jellyfin.zip",
+        "checksum": "dbb35091db3cfdf05c7634133eb2a3bd",
+        "timestamp": "2023-12-10T05:11:52Z"
+      },
+      {
+        "version": "2023.1210.439.17",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1210.439.17/themerr-jellyfin.zip",
+        "checksum": "cc1f884e88631547f0b085a9558ef616",
+        "timestamp": "2023-12-10T04:48:47Z"
+      },
+      {
+        "version": "2023.1207.247.13",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1207.247.13/themerr-jellyfin.zip",
+        "checksum": "681123ff1d0cfb3230e935aad8516bcf",
+        "timestamp": "2023-12-07T02:49:10Z"
+      },
+      {
+        "version": "0.0.2.0",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v0.0.2/themerr-jellyfin.zip",
+        "checksum": "49230bec10db39e175c3771566f5a623",
+        "timestamp": "2023-12-07T02:33:16Z"
+      },
+      {
+        "version": "0.0.1.0",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v0.0.1/themerr-jellyfin.zip",
+        "checksum": "d8956c51cd8d13cdda03cbeda0f41fac",
+        "timestamp": "2023-02-04T15:21:57Z"
+      }
+    ]
+  },
+  {
+    "category": "Metadata",
+    "guid": "dc97d0c6-28b0-4242-afb4-5833ae1b3715",
+    "name": "TubeArchivistMetadata",
+    "description": "TubeArchivistMetadata is a plugin that automatically manages metadata for videos downloaded with TubeArchivist from YouTube.\n",
+    "owner": "DarkFighterLuke",
+    "overview": "Metadata for your TubeArchivist library on Jellyfin",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TubeArchivistMetadata.png",
+    "versions": [
+      {
+        "version": "1.3.7.0",
+        "changelog": "Fix JF->TA Sync\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.7/tubearchivistmetadata_1.3.7.0.zip",
+        "checksum": "60d8e9f134912f907dccd30b531da4f6",
+        "timestamp": "2025-05-27T18:36:55Z"
+      },
+      {
+        "version": "1.3.6.0",
+        "changelog": "Fix TA auth header\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.6/tubearchivistmetadata_1.3.6.0.zip",
+        "checksum": "513cde64268867d0047009eb2d986054",
+        "timestamp": "2025-03-10T22:01:13Z"
+      },
+      {
+        "version": "1.3.5.0",
+        "changelog": "Adapt to the new TA API changes Fix JF crash when setting watched status with TA offline\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.5/tubearchivistmetadata_1.3.5.0.zip",
+        "checksum": "2536622c0ec73e6401860929f24849f7",
+        "timestamp": "2025-03-10T17:47:43Z"
+      },
+      {
+        "version": "1.3.4.0",
+        "changelog": "Merge workaround for JF crashing when scanning Series pull request by wolffshots\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.4/tubearchivistmetadata_1.3.4.0.zip",
+        "checksum": "1ee6041139a6fdc3cecc8b2a427c60a8",
+        "timestamp": "2024-11-04T21:30:24Z"
+      },
+      {
+        "version": "1.3.3.0",
+        "changelog": "Add compatibility with Jellyfin 10.10\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.3/tubearchivistmetadata_1.3.3.0.zip",
+        "checksum": "ee6431d8bdaf844672d167b6f3ee0a73",
+        "timestamp": "2024-11-04T20:41:46Z"
+      },
+      {
+        "version": "1.3.2.0",
+        "changelog": "Add tasks progress status Adjust logs levels\n",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.2/tubearchivistmetadata_1.3.2.0.zip",
+        "checksum": "6162235807535a5c2a7570276798e69e",
+        "timestamp": "2024-09-14T13:41:58Z"
+      },
+      {
+        "version": "1.3.1.0",
+        "changelog": "Add support for Jellyfin 10.9.1\n",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.1/tubearchivistmetadata_1.3.1.0.zip",
+        "checksum": "b0b526bbd1702970108e3b9a8c3709de",
+        "timestamp": "2024-09-12T13:36:12Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Add support for Jellyfin 10.9.1\n",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.0/tubearchivistmetadata_1.3.0.0.zip",
+        "checksum": "e1fde6f75a10a5f17bc9cc5814949180",
+        "timestamp": "2024-05-14T20:20:13Z"
+      },
+      {
+        "version": "1.2.5.0",
+        "changelog": "Ping the TA API to validate connection\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.5/tubearchivistmetadata_1.2.5.0.zip",
+        "checksum": "e4a0d076ffd84c976ad66dde91dfb840",
+        "timestamp": "2024-05-14T17:37:17Z"
+      },
+      {
+        "version": "1.2.4.0",
+        "changelog": "Fix issues with directory separators\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.4/tubearchivistmetadata_1.2.4.0.zip",
+        "checksum": "b418a46d458fe28354580d70748b1ced",
+        "timestamp": "2024-05-09T15:41:00Z"
+      },
+      {
+        "version": "1.2.3.0",
+        "changelog": "Add fix for unclosed HTML breaks\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.3/tubearchivistmetadata_1.2.3.0.zip",
+        "checksum": "f5328a662444739eaa7c59855bfcb203",
+        "timestamp": "2024-04-18T21:45:00Z"
+      },
+      {
+        "version": "1.2.2.0",
+        "changelog": "Fix bug on description length substringing\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.2/tubearchivistmetadata_1.2.2.0.zip",
+        "checksum": "82d04546916e1ba76d56de28e648447a",
+        "timestamp": "2024-03-15T10:12:00Z"
+      },
+      {
+        "version": "1.2.1.0",
+        "changelog": "Make maximum description length configurable\nTruncate descriptions to 500 characters\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.1/tubearchivistmetadata_1.2.1.0.zip",
+        "checksum": "cf68d169956f166a6ee68a06192651c2",
+        "timestamp": "2024-03-14T21:50:00Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Add episodes and series overview\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.0/tubearchivistmetadata_1.2.0.0.zip",
+        "checksum": "75812a4464bf68c43fb9dcdb74d924e3",
+        "timestamp": "2024-03-14T20:00:00Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "Handle empty tags for videos and channels\nFix URL by removing trailing slash for images\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.1.1/tubearchivistmetadata_1.1.1.0.zip",
+        "checksum": "84ce752ce662e834690512c88ba48664",
+        "timestamp": "2024-03-14T16:35:00Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Fix field name and add placeholders\nFix URL in logs after redirection\nAdd schema to TubeArchivist URL if not present in settings\nFix a particular case\nLog configuration settings at initialization\nSanitize URLs\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.1.0/tubearchivistmetadata_1.1.0.0.zip",
+        "checksum": "de4b6562973b7f75b6afe3a441bb0e19",
+        "timestamp": "2024-03-13T15:02:00Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "First release\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.0.0/tubearchivistmetadata_1.0.0.0.zip",
+        "checksum": "444f8980671de494b1875ee7d1657bcf",
+        "timestamp": "2024-03-11T16:02:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "5aeab01b-2ef8-45c6-bb6b-16ce9cb268d4",
+    "name": "subbuzz",
+    "description": "Download subtitles from various sites.",
+    "overview": "Download subtitles for your media",
+    "owner": "josdion",
+    "category": "Metadata",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/subbuzz.png",
+    "versions": [
+      {
+        "version": "1.2.1.0",
+        "changelog": "- Added new provider: SubDL.com\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.2.1.0/subbuzz_1.2.1.0_jellyfin_10.10.zip",
+        "checksum": "4b468fbc8b0756311f194f746fe56887",
+        "timestamp": "2024-10-27T10:01:24Z"
+      }
+    ]
   }
 ]
