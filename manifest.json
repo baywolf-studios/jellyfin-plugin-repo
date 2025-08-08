@@ -6518,7 +6518,7 @@
     "description": "Enables logging in to Jellyfin using the Telegram Login Widget as SSO provider. Allows for simple Group management. Having a Telegram Username is mandatory. A Telegram Bot is required to validate the Telegram login credentials. A valid, public domain SSL certificate is required for the Login Widget to work. This plug-in is free, open-source software. 'Production'-usage is NOT recommended. I do not accept any responsibility for errors. Repo: https://github.com/hexxone/TeleJelly",
     "owner": "hexxone",
     "category": "Authentication",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TeleJelly.jpg",
+    "imageUrl": "https://github.com/hexxone/TeleJelly/blob/main/TeleJelly/thumb.jpg?raw=true",
     "versions": [
       {
         "targetAbi": "10.9.0.0",
@@ -8207,6 +8207,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Streamyfin.png",
     "versions": [
+      {
+        "version": "0.58.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/streamyfin/jellyfin-plugin-streamyfin/releases/tag/0.58.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/streamyfin/jellyfin-plugin-streamyfin/releases/download/0.58.0.0/streamyfin-0.58.0.0.zip",
+        "checksum": "3195b1a3b1978df417b3e217b6ae16ac",
+        "timestamp": "2025-08-07T03:50:13Z"
+      },
       {
         "version": "0.57.0.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/streamyfin/jellyfin-plugin-streamyfin/releases/tag/0.57.0.0)\n",
