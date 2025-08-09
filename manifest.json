@@ -6518,7 +6518,7 @@
     "description": "Enables logging in to Jellyfin using the Telegram Login Widget as SSO provider. Allows for simple Group management. Having a Telegram Username is mandatory. A Telegram Bot is required to validate the Telegram login credentials. A valid, public domain SSL certificate is required for the Login Widget to work. This plug-in is free, open-source software. 'Production'-usage is NOT recommended. I do not accept any responsibility for errors. Repo: https://github.com/hexxone/TeleJelly",
     "owner": "hexxone",
     "category": "Authentication",
-    "imageUrl": "https://github.com/hexxone/TeleJelly/blob/main/TeleJelly/thumb.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TeleJelly.jpg",
     "versions": [
       {
         "targetAbi": "10.9.0.0",
