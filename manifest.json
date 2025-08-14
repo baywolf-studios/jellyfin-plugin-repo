@@ -3651,6 +3651,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Custom Tabs.png",
     "versions": [
       {
+        "version": "0.1.3.0",
+        "changelist": "TODO",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.1.3.0/Release.zip",
+        "checksum": "BD0AA903F58354182FD02802E3E30649",
+        "timestamp": "2025-07-26T13:53:57",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "0.1.2.0",
         "changelist": "TODO",
         "targetAbi": "10.10.7.0",
