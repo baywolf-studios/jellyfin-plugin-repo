@@ -57,3 +57,5 @@ https://raw.githubusercontent.com/DirtyRacer1337/Jellyfin.Plugin.Stash/main/mani
 https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json
 https://raw.githubusercontent.com/tubearchivist/tubearchivist-jf-plugin/master/manifest.json
 https://raw.githubusercontent.com/josdion/subbuzz/master/repo/jellyfin_10.10.json
+https://raw.githubusercontent.com/ankenyr/jellyfin-plugin-repo/master/manifest.json
+https://raw.githubusercontent.com/9p4/jellyfin-plugin-sso/manifest-release/manifest.json
