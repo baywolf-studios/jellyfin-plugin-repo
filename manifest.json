@@ -8906,6 +8906,14 @@
     "category": "Metadata",
     "versions": [
       {
+        "version": "1.13.1.0",
+        "changelog": "# Changelog\n\n## [1.13.1.0] - 2025-08-14\n\n### Fixed\n\n- Fix missing progress reporting of import task\n- Fix wrong parameters for some logging entries (see issue #63)\n- Fix procedure to aquire auth token for alternative Spotify provider after recent changes made by Spotify (again)",
+        "targetAbi": "10.10.3.0",
+        "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.13.1.0/spotify-import_1.13.1.0.zip",
+        "checksum": "99d99f7d70d70a30a846eb402f3ad827",
+        "timestamp": "2025-08-14T16:41:11Z"
+      },
+      {
         "version": "1.13.0.0",
         "changelog": "# Changelog\n\n## [1.13.0.0] - 2025-03-24\n\n### Added\n\n- Caching of Spotify playlists (only query the full track data if the playlist state changed)\n- Caching of track matches (reuse match of a track for all occurrences across playlists)\n\n### Fixed\n\n- Fix procedure to aquire auth token for alternative Spotify provider after recent changes made by Spotify (again)",
         "targetAbi": "10.10.3.0",
