@@ -12,7 +12,7 @@
 > (tested on server with gigabit connection, client with 10mbps download from server)
 
 ```
-Before: 12 seconds to load items 3 seconds to load images, 5-6 seconds with cache<br>
+Before: 12 seconds to load items 3 seconds to load images, 5-6 seconds with cache
 After: 4 seconds to load items 1 second to load images, 1-2 seconds with cache
 ```
 
