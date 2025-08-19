@@ -2121,8 +2121,8 @@
   {
     "guid": "c83d86bb-a1e0-4c35-a113-e2101cf4ee6b",
     "name": "Intro Skipper",
-    "overview": "Automatically detect and skip intros in television episodes\n\n[Source Code](https://github.com/intro-skipper/intro-skipper)",
-    "description": "Analyzes the audio of television episodes and detects introduction sequences.",
+    "overview": "Automatically detect and skip intros in television episodes",
+    "description": "Analyzes the audio of television episodes and detects introduction sequences.\n\n[Source Code](https://github.com/intro-skipper/intro-skipper)",
     "owner": "AbandonedCart, rlauuzo, jumoog (forked from ConfusedPolarBear)",
     "category": "Intro-Skipper",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Intro Skipper.png",
@@ -2140,8 +2140,8 @@
   {
     "guid": "6B0E323A-4AEE-4B10-813F-1E060488AE90",
     "name": "EDL Creator",
-    "overview": "Create .edl files from Media Segments\n\n[Source Code](https://github.com/intro-skipper/jellyfin-plugin-edl)",
-    "description": "These files can be used by Kodi and other players to skip content like commercials and are stored next to your media. Therefore you need write access.",
+    "overview": "Create .edl files from Media Segments",
+    "description": "These files can be used by Kodi and other players to skip content like commercials and are stored next to your media. Therefore you need write access.\n\n[Source Code](https://github.com/intro-skipper/jellyfin-plugin-edl)",
     "owner": "Intro Skipper (forked from Endrl)",
     "category": "Intro-Skipper",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/EDL Creator.png",
@@ -2159,7 +2159,7 @@
   {
     "guid": "6F0AAAB5-E251-4A6D-B8D5-BC8C65222051",
     "name": "MediaSegments API",
-    "overview": "Create and delete Media Segments in Jellyfin Segment Editor\n\n[Source Code](https://github.com/intro-skipper/segment-editor)",
+    "overview": "Create and delete Media Segments in Jellyfin Segment Editor",
     "description": "Provides an extended HTTP API to create and delete MediaSegments. This plugin is only necessary if you are using the Jellyfin Segment Editor: https://github.com/intro-skipper/segment-editor",
     "owner": "Intro Skipper (forked from Endrl)",
     "category": "Intro-Skipper",
@@ -2178,8 +2178,8 @@
   {
     "guid": "e22fb8f5-bc98-4f76-9be4-87de302a97ea",
     "name": "Chapter Creator",
-    "overview": "Automatically convert Jellyfin media segments into Matroska chapter XML files for enhanced media navigation\n\n[Source Code](https://github.com/intro-skipper/jellyfin-plugin-ms-chapter)",
-    "description": "This plugin converts existing media segments (like Intros and Outros) into standardized Matroska chapter XML files",
+    "overview": "Automatically convert Jellyfin media segments into Matroska chapter XML files for enhanced media navigation",
+    "description": "This plugin converts existing media segments (like Intros and Outros) into standardized Matroska chapter XML files\n\n[Source Code](https://github.com/intro-skipper/jellyfin-plugin-ms-chapter)",
     "owner": "Intro Skipper",
     "category": "Intro-Skipper",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Chapter Creator.png",
@@ -2197,7 +2197,7 @@
   {
     "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
     "name": "CustomLogo",
-    "description": "Add the abiliy to replace the Jellyfin logo",
+    "description": "Add the abiliy to replace the Jellyfin logo\n\n[Source Code](https://github.com/ImLacy/Jellyfin-CustomLogo)",
     "owner": "Lacy",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/CustomLogo.png",
@@ -2218,14 +2218,13 @@
         "checksum": "6966DCC632D634959C37465445002AB7",
         "timestamp": "2025-06-05T13:58:00"
       }
-    ],
-    "overview": "[Source Code](https://github.com/ImLacy/Jellyfin-CustomLogo)"
+    ]
   },
   {
     "guid": "73833d5f-0bcb-45dc-ab8b-7ce668f4345d",
     "name": "InPlayerEpisodePreview",
-    "overview": "Adds an overview of episode data inside the video player.\n\n[Source Code](https://github.com/Namo2/InPlayerEpisodePreview)",
-    "description": "Adds an overview of episode data inside the video player.",
+    "overview": "Adds an overview of episode data inside the video player.",
+    "description": "Adds an overview of episode data inside the video player.\n\n[Source Code](https://github.com/Namo2/InPlayerEpisodePreview)",
     "owner": "Namo",
     "category": "General",
     "versions": [
@@ -2331,9 +2330,9 @@
     "category": "General",
     "guid": "c78f11cf-93e6-4423-8c42-d2c255b70e47",
     "name": "Ani-Sync",
-    "description": "Synchronize anime watch status between Jellyfin and anime tracking sites.",
+    "description": "Synchronize anime watch status between Jellyfin and anime tracking sites.\n\n[Source Code](https://github.com/vosmiic/jellyfin-ani-sync)",
     "owner": "vosmiic",
-    "overview": "Synchronize anime watch status\n\n[Source Code](https://github.com/vosmiic/jellyfin-ani-sync)",
+    "overview": "Synchronize anime watch status",
     "versions": [
       {
         "checksum": "9fad2410c7f95144529a4fa6cc5cdabf",
@@ -2620,8 +2619,8 @@
   {
     "guid": "70bb2ec1-f19e-46b5-b49a-942e6b96ebae",
     "name": "Editor's Choice",
-    "overview": "Create a Netflix-style featured content slider on the main page.\n\n[Source Code](https://github.com/lachlandcp/jellyfin-editors-choice-plugin)",
-    "description": "Create a Netflix-style featured content slider on the main page.",
+    "overview": "Create a Netflix-style featured content slider on the main page.",
+    "description": "Create a Netflix-style featured content slider on the main page.\n\n[Source Code](https://github.com/lachlandcp/jellyfin-editors-choice-plugin)",
     "owner": "lachlandcp",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Editor's Choice.png",
@@ -2807,8 +2806,8 @@
   {
     "guid": "277cd84e-44c3-45a1-8f3c-2537ddac0ccf",
     "name": "Jellyfin Ignore",
-    "description": "This Jellyfin plugin allows you to specify filepath patterns to ignore when performing a library scan. It can for example ignore specific file extensions (like .m3u). The patterns can be specified on the plugin configuration page.\n",
-    "overview": "Specifiy filepath patterns to ignore on library scan\n\n[Source Code](https://github.com/fdett/jellyfin-ignore)",
+    "description": "This Jellyfin plugin allows you to specify filepath patterns to ignore when performing a library scan. It can for example ignore specific file extensions (like .m3u). The patterns can be specified on the plugin configuration page.\n\n\n[Source Code](https://github.com/fdett/jellyfin-ignore)",
+    "overview": "Specifiy filepath patterns to ignore on library scan",
     "owner": "fdett",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Ignore.png",
@@ -2841,10 +2840,10 @@
   },
   {
     "category": "Metadata",
-    "description": "This is a longer description that can span more than one line and include details about your plugin.\n",
+    "description": "This is a longer description that can span more than one line and include details about your plugin.\n\n\n[Source Code](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters)",
     "guid": "3938fe98-b7b2-4333-b678-c4c4e339d232",
     "name": "Local Posters",
-    "overview": "Plugin to match local posters (similar to what Kometa is doing with Plex)\n\n[Source Code](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters)",
+    "overview": "Plugin to match local posters (similar to what Kometa is doing with Plex)",
     "owner": "jellyfin",
     "versions": [
       {
@@ -3092,8 +3091,8 @@
   {
     "guid": "60f478ab-2dd6-4ea0-af10-04d033f75979",
     "name": "Newsletters",
-    "description": "This plugin automacially scans a users library (default every 4 hours), populates a list of recently added (not previously scanned) media, converts that data into HTML format, and sends out emails to a provided list of recipients.",
-    "overview": "Send newsletters for recently added media\n\n[Source Code](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin)",
+    "description": "This plugin automacially scans a users library (default every 4 hours), populates a list of recently added (not previously scanned) media, converts that data into HTML format, and sends out emails to a provided list of recipients.\n\n[Source Code](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin)",
+    "overview": "Send newsletters for recently added media",
     "owner": "jellyfin",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Newsletters.png",
@@ -3230,10 +3229,10 @@
   },
   {
     "category": "Metadata",
-    "description": "Plugin for Jellyfin that fetches anime themes (OPs and EDs) from animethemes.moe.\n**Since the AniDB ID is used to find the matching themes, you'll need to install the AniDB plugin.**\n",
+    "description": "Plugin for Jellyfin that fetches anime themes (OPs and EDs) from animethemes.moe.\n**Since the AniDB ID is used to find the matching themes, you'll need to install the AniDB plugin.**\n\n\n[Source Code](https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes)",
     "guid": "086022b5-29fb-4f89-a298-3d595492a5ed",
     "name": "AnimeThemes",
-    "overview": "Plugin for Jellyfin that fetches anime themes (OPs and EDs) from animethemes.moe\n\n[Source Code](https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes)",
+    "overview": "Plugin for Jellyfin that fetches anime themes (OPs and EDs) from animethemes.moe",
     "owner": "EusthEnoptEron",
     "versions": [
       {
@@ -3290,9 +3289,9 @@
     "category": "General",
     "guid": "5fcefe1b-df1f-4596-ac57-f2f939c294c5",
     "name": "Cinema Mode",
-    "description": "Enable Cinema Mode with local trailers and pre-rolls.",
+    "description": "Enable Cinema Mode with local trailers and pre-rolls.\n\n[Source Code](https://github.com/CherryFloors/jellyfin-plugin-cinemamode)",
     "owner": "CherryFloors",
-    "overview": "Enable Jellyfin's Cinema Mode\n\n[Source Code](https://github.com/CherryFloors/jellyfin-plugin-cinemamode)",
+    "overview": "Enable Jellyfin's Cinema Mode",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Cinema Mode.jpg",
     "versions": [
       {
@@ -3356,8 +3355,8 @@
   {
     "guid": "a708187e-5f82-4610-9c84-ec1f2837d5fe",
     "name": "Collection Import",
-    "overview": "Import collections from external sources like tmdblist\n\n[Source Code](https://github.com/lostb1t/jellyfin-plugin-collection-import)",
-    "description": "Import collections from external sources like tmdblist",
+    "overview": "Import collections from external sources like tmdblist",
+    "description": "Import collections from external sources like tmdblist\n\n[Source Code](https://github.com/lostb1t/jellyfin-plugin-collection-import)",
     "owner": "lostb1t",
     "category": "General",
     "versions": [
@@ -3646,7 +3645,7 @@
   {
     "guid": "fbacd0b6-fd46-4a05-b0a4-2045d6a135b0",
     "name": "Custom Tabs",
-    "description": "Adds support for custom tabs to be added to the Jellyfin webpage. Commonly used to add Requests tab.",
+    "description": "Adds support for custom tabs to be added to the Jellyfin webpage. Commonly used to add Requests tab.\n\n[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs)",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Custom Tabs.png",
@@ -3695,13 +3694,12 @@
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
       }
-    ],
-    "overview": "[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs)"
+    ]
   },
   {
     "guid": "043b2c48-b3e0-4610-b398-8217b146d1a4",
     "name": "Collection Sections",
-    "description": "Adds home screen section for collections/playlists",
+    "description": "Adds home screen section for collections/playlists\n\n[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-collection-sections)",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Collection Sections.png",
@@ -3761,13 +3759,12 @@
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
       }
-    ],
-    "overview": "[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-collection-sections)"
+    ]
   },
   {
     "guid": "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
     "name": "File Transformation",
-    "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.",
+    "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.\n\n[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation)",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/File Transformation.png",
@@ -3893,13 +3890,12 @@
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
       }
-    ],
-    "overview": "[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation)"
+    ]
   },
   {
     "guid": "08f615ea-2107-4f04-89cc-091035f54448",
     "name": "Media Bar",
-    "description": "Adds a media bar element at the top of the homepage on Jellyfin web",
+    "description": "Adds a media bar element at the top of the homepage on Jellyfin web\n\n[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-media-bar)",
     "owner": "IAmParadox27 & M0RPH3US",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar.png",
@@ -4080,13 +4076,12 @@
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
       }
-    ],
-    "overview": "[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-media-bar)"
+    ]
   },
   {
     "guid": "5b6550fa-a014-4f4c-8a2c-59a43680ac6d",
     "name": "Plugin Pages",
-    "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.",
+    "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.\n\n[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-pages)",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Plugin Pages.png",
@@ -4212,13 +4207,12 @@
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
       }
-    ],
-    "overview": "[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-pages)"
+    ]
   },
   {
     "guid": "b8298e01-2697-407a-b44d-aa8dc795e850",
     "name": "Home Screen Sections",
-    "description": "Adds support for server provided home screen sections",
+    "description": "Adds support for server provided home screen sections\n\n[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-home-sections)",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
@@ -4454,14 +4448,13 @@
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
       }
-    ],
-    "overview": "[Source Code](https://github.com/IAmParadox27/jellyfin-plugin-home-sections)"
+    ]
   },
   {
     "guid": "e6ee25c2-d12c-4382-a48c-66ee9c1c33cb",
     "name": "Language Tags",
-    "overview": "This plugin automatically adds language tags to the media.\n\n[Source Code](https://github.com/TheXaman/jellyfin-plugin-languageTags)",
-    "description": "This plugin automatically scans the libraries and adds language tags to the media items. The languages are extracted from the audio tracks. Media types covered are movies, tv shows / series and collections.",
+    "overview": "This plugin automatically adds language tags to the media.",
+    "description": "This plugin automatically scans the libraries and adds language tags to the media items. The languages are extracted from the audio tracks. Media types covered are movies, tv shows / series and collections.\n\n[Source Code](https://github.com/TheXaman/jellyfin-plugin-languageTags)",
     "owner": "TheXaman",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Language Tags.png",
@@ -4511,8 +4504,8 @@
   {
     "guid": "b1fb3d98-3336-4b87-a5c9-8a948bd87233",
     "name": "LetterboxdSync",
-    "overview": "Syncs watched movies with Letterboxd diary\n\n[Source Code](https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync)",
-    "description": "A third party plugin to keep your watched movie history automatically updated to a Letterboxd account",
+    "overview": "Syncs watched movies with Letterboxd diary",
+    "description": "A third party plugin to keep your watched movie history automatically updated to a Letterboxd account\n\n[Source Code](https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync)",
     "owner": "danielveigasilva",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/LetterboxdSync.png",
@@ -4825,8 +4818,8 @@
   {
     "guid": "ef35f6b1-7fe6-44ca-a215-232089fb9bc7",
     "name": "MyShows",
-    "description": "Scrobble your watched shows with MyShows.me.\n",
-    "overview": "Scrobble your watched shows with MyShows.me\n\n[Source Code](https://github.com/shemanaev/jellyfin-plugin-myshows)",
+    "description": "Scrobble your watched shows with MyShows.me.\n\n\n[Source Code](https://github.com/shemanaev/jellyfin-plugin-myshows)",
+    "overview": "Scrobble your watched shows with MyShows.me",
     "owner": "shemanaev",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MyShows.png",
@@ -4884,8 +4877,8 @@
   {
     "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
     "name": "Webhooks",
-    "description": "Supports couple of webhook types including Plex one.\n",
-    "overview": "Webhooks. Flexible and robust\n\n[Source Code](https://github.com/shemanaev/jellyfin-plugin-webhooks)",
+    "description": "Supports couple of webhook types including Plex one.\n\n\n[Source Code](https://github.com/shemanaev/jellyfin-plugin-webhooks)",
+    "overview": "Webhooks. Flexible and robust",
     "owner": "shemanaev",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Webhooks.png",
@@ -5023,8 +5016,8 @@
   {
     "guid": "607fee77-97eb-41fe-bf22-26844d99ffb0",
     "name": "Media Cleaner",
-    "description": "Keep your storage clean without hassle. Works with movies and series.\n",
-    "overview": "Delete played media after specified time\n\n[Source Code](https://github.com/shemanaev/jellyfin-plugin-media-cleaner)",
+    "description": "Keep your storage clean without hassle. Works with movies and series.\n\n\n[Source Code](https://github.com/shemanaev/jellyfin-plugin-media-cleaner)",
+    "overview": "Delete played media after specified time",
     "owner": "shemanaev",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Cleaner.png",
@@ -5250,8 +5243,8 @@
   {
     "guid": "974395db-b31d-46a2-bc86-ef9aa5ac04dd",
     "name": "Meilisearch",
-    "description": "This is a plugin that try to use Meilisearch to speedup the search of jellyfin. Inspired by Jellysearch\n",
-    "overview": "A Meilisearch Plugin for Jellyfin\n\n[Source Code](https://github.com/arnesacnussem/jellyfin-plugin-meilisearch)",
+    "description": "This is a plugin that try to use Meilisearch to speedup the search of jellyfin. Inspired by Jellysearch\n\n\n[Source Code](https://github.com/arnesacnussem/jellyfin-plugin-meilisearch)",
+    "overview": "A Meilisearch Plugin for Jellyfin",
     "owner": "a.sac.",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Meilisearch.svg",
@@ -5382,7 +5375,7 @@
     "guid": "1c0bf35e-3df4-47cc-8a4e-e3865de60d2f",
     "name": "One Pace",
     "description": "Please report bugs at https://github.com/jwueller/jellyfin-plugin-onepace",
-    "overview": "Metadata and cover art integration for the One Pace project\n\n[Source Code](https://github.com/jwueller/jellyfin-plugin-onepace)",
+    "overview": "Metadata and cover art integration for the One Pace project",
     "owner": "jwueller",
     "category": "Metadata",
     "versions": [
@@ -5495,8 +5488,8 @@
   {
     "guid": "f21bbed8-3a97-4d8b-88b2-48aaa65427cb",
     "name": "Merge Versions",
-    "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie\n",
-    "overview": "Automatically merge repeated movies\n\n[Source Code](https://github.com/danieladov/jellyfin-plugin-mergeversions)",
+    "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie\n\n\n[Source Code](https://github.com/danieladov/jellyfin-plugin-mergeversions)",
+    "overview": "Automatically merge repeated movies",
     "owner": "danieladov",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Merge Versions.png",
     "category": "General",
@@ -5618,8 +5611,8 @@
   {
     "guid": "afe1de9c-63e4-4692-8d8c-7c964df19eb2",
     "name": "Theme Songs",
-    "description": "Jellyfin Theme Songs plugin is a plugin that automatically downloads every theme song of your tv shows library\n",
-    "overview": "Automatically downloads theme songs of your tv shows\n\n[Source Code](https://github.com/danieladov/jellyfin-plugin-themesongs)",
+    "description": "Jellyfin Theme Songs plugin is a plugin that automatically downloads every theme song of your tv shows library\n\n\n[Source Code](https://github.com/danieladov/jellyfin-plugin-themesongs)",
+    "overview": "Automatically downloads theme songs of your tv shows",
     "owner": "danieladov",
     "category": "General",
     "versions": [
@@ -5684,8 +5677,8 @@
   {
     "guid": "e9ca8b8e-ca6d-40e7-85dc-58e536df8eb3",
     "name": "Skin Manager",
-    "description": "Skin manager helps you to download and install most popular skins for jellyfin\n",
-    "overview": "Skins for jellyfin\n\n[Source Code](https://github.com/danieladov/jellyfin-plugin-skin-manager)",
+    "description": "Skin manager helps you to download and install most popular skins for jellyfin\n\n\n[Source Code](https://github.com/danieladov/jellyfin-plugin-skin-manager)",
+    "overview": "Skins for jellyfin",
     "owner": "danieladov",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Skin Manager.png",
     "category": "General",
@@ -5745,8 +5738,8 @@
     "guid": "fd76211d-17e0-4a72-a23f-c6eeb1e48b3a",
     "name": "Telegram Notifier",
     "owner": "RomainPierre7",
-    "overview": "Easily send notifications to your Telegram bot!\n\n[Source Code](https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier)",
-    "description": "Configure for each user where to send notifications, and what kind of notifications to send.",
+    "overview": "Easily send notifications to your Telegram bot!",
+    "description": "Configure for each user where to send notifications, and what kind of notifications to send.\n\n[Source Code](https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier)",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Telegram Notifier.png",
     "versions": [
       {
@@ -5915,9 +5908,9 @@
     "category": "General",
     "guid": "b5a2d6b3-c5f4-4f88-aed4-5f3e9877d0a6",
     "name": "RemoteUpload",
-    "description": "Upload files directly to the Jellyfin-Server, or let the server automatically download files from an URL. Please read Github for more.",
+    "description": "Upload files directly to the Jellyfin-Server, or let the server automatically download files from an URL. Please read Github for more.\n\n[Source Code](https://github.com/GrandguyJS/media-upload-plugin)",
     "owner": "grandguyjs",
-    "overview": "remoteupload\n\n[Source Code](https://github.com/GrandguyJS/media-upload-plugin)",
+    "overview": "remoteupload",
     "versions": [
       {
         "checksum": "14cb4ee6708b88dd2cd6885ea4de540d",
@@ -6071,8 +6064,8 @@
   {
     "guid": "28612bb6-e3ab-4099-a682-f413d4ca19d3",
     "name": "MyAnimeSync",
-    "description": "Jellyfin plugin to synchronize anime watch status on myanimelist.net\n",
-    "overview": "Update user watch status on myanimelist.net\n\n[Source Code](https://github.com/iankiller77/MyAnimeSync)",
+    "description": "Jellyfin plugin to synchronize anime watch status on myanimelist.net\n\n\n[Source Code](https://github.com/iankiller77/MyAnimeSync)",
+    "overview": "Update user watch status on myanimelist.net",
     "owner": "iankiller77",
     "category": "General",
     "versions": [
@@ -6177,8 +6170,8 @@
   {
     "guid": "975dde10-724f-4b72-8efc-91a1cb2d9510",
     "name": "Playlist Generator",
-    "overview": "Generate a daily personalized playlist\n\n[Source Code](https://github.com/Eeeeelias/playlist-generator)",
-    "description": "Uses your listening history to generate a daily playlist of songs you might like",
+    "overview": "Generate a daily personalized playlist",
+    "description": "Uses your listening history to generate a daily playlist of songs you might like\n\n[Source Code](https://github.com/Eeeeelias/playlist-generator)",
     "owner": "Eeeeelias",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Playlist Generator.png",
@@ -6228,8 +6221,8 @@
   {
     "guid": "5216ccbf-d24a-4eb3-8a7e-7da4230b7052",
     "name": "Shoko",
-    "description": "A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).\n## Read this before installing\n**This plugin requires that you have already set up and are using Shoko Server**, and that the files you intend to include in Jellyfin are **indexed** (and optionally managed) by Shoko Server. **Otherwise, the plugin won't be able to provide metadata for your files**, since there is no metadata to find for them.\n",
-    "overview": "Manage your anime from Jellyfin using metadata from Shoko\n\n[Source Code](https://github.com/ShokoAnime/Shokofin)",
+    "description": "A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).\n## Read this before installing\n**This plugin requires that you have already set up and are using Shoko Server**, and that the files you intend to include in Jellyfin are **indexed** (and optionally managed) by Shoko Server. **Otherwise, the plugin won't be able to provide metadata for your files**, since there is no metadata to find for them.\n\n\n[Source Code](https://github.com/ShokoAnime/Shokofin)",
+    "overview": "Manage your anime from Jellyfin using metadata from Shoko",
     "owner": "ShokoAnime",
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Shoko.png",
@@ -6543,7 +6536,7 @@
   {
     "guid": "4b71013d-00ba-470c-9e4d-0c451a435328",
     "name": "TeleJelly",
-    "overview": "Log in to Jellyfin using Telegram\n\n[Source Code](https://github.com/hexxone/TeleJelly)",
+    "overview": "Log in to Jellyfin using Telegram",
     "description": "Enables logging in to Jellyfin using the Telegram Login Widget as SSO provider. Allows for simple Group management. Having a Telegram Username is mandatory. A Telegram Bot is required to validate the Telegram login credentials. A valid, public domain SSL certificate is required for the Login Widget to work. This plug-in is free, open-source software. 'Production'-usage is NOT recommended. I do not accept any responsibility for errors. Repo: https://github.com/hexxone/TeleJelly",
     "owner": "hexxone",
     "category": "Authentication",
@@ -6563,9 +6556,9 @@
     "category": "Metadata",
     "guid": "ed04e975-f906-4b58-a250-705550810623",
     "name": "myanimelist",
-    "description": "myanimelist metadata provider",
+    "description": "myanimelist metadata provider\n\n[Source Code](https://github.com/ryandash/jellyfin-plugin-myanimelist)",
     "owner": "Ryan Dash",
-    "overview": "myanimelist metadata provider\n\n[Source Code](https://github.com/ryandash/jellyfin-plugin-myanimelist)",
+    "overview": "myanimelist metadata provider",
     "versions": [
       {
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.2.2",
@@ -6733,9 +6726,9 @@
     "category": "Metadata",
     "guid": "8f97371f-8617-463c-9859-a33072182494",
     "name": "PhoenixAdult",
-    "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the original site.",
+    "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the original site.\n\n[Source Code](https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult)",
     "owner": "DirtyRacer",
-    "overview": "Manage Your Adult Videos in Jellyfin/Emby\n\n[Source Code](https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult)",
+    "overview": "Manage Your Adult Videos in Jellyfin/Emby",
     "versions": [
       {
         "checksum": "e0c4290082855002f02b957024a90200",
@@ -6943,9 +6936,9 @@
     "category": "Metadata",
     "guid": "b88714eb-55e9-402f-ba72-4dfaa4b1401f",
     "name": "ThePornDB",
-    "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the ThePornDB.",
+    "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the ThePornDB.\n\n[Source Code](https://github.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB)",
     "owner": "DirtyRacer",
-    "overview": "Manage Your Adult Videos in Jellyfin/Emby\n\n[Source Code](https://github.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB)",
+    "overview": "Manage Your Adult Videos in Jellyfin/Emby",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ThePornDB.png",
     "versions": [
       {
@@ -7041,8 +7034,8 @@
   {
     "guid": "01cc53ec-c415-4108-bbd4-a684a9801a32",
     "name": "MetaTube",
-    "description": "MetaTube Plugin for Jellyfin/Emby.",
-    "overview": "MetaTube Plugin for Jellyfin/Emby.\n\n[Source Code](https://github.com/metatube-community/jellyfin-plugin-metatube)",
+    "description": "MetaTube Plugin for Jellyfin/Emby.\n\n[Source Code](https://github.com/metatube-community/jellyfin-plugin-metatube)",
+    "overview": "MetaTube Plugin for Jellyfin/Emby.",
     "owner": "MetaTube",
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaTube.png",
@@ -7092,8 +7085,8 @@
   {
     "guid": "9a19103f-16f7-4668-be54-9a1e7a4f7556",
     "name": "MetaShark",
-    "description": "jellyfin电影元数据插件，影片信息只要从豆瓣获取，并由TMDB补充缺失的剧集数据。",
-    "overview": "jellyfin电影元数据插件\n\n[Source Code](https://github.com/cxfksword/jellyfin-plugin-metashark)",
+    "description": "jellyfin电影元数据插件，影片信息只要从豆瓣获取，并由TMDB补充缺失的剧集数据。\n\n[Source Code](https://github.com/cxfksword/jellyfin-plugin-metashark)",
+    "overview": "jellyfin电影元数据插件",
     "owner": "cxfksword",
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
@@ -7272,9 +7265,9 @@
     "category": "Metadata",
     "guid": "e325b8d5-5f54-447f-a38a-a951b933d22c",
     "name": "Douban",
-    "description": "Get Movie/TV information from Douban",
+    "description": "Get Movie/TV information from Douban\n\n[Source Code](https://github.com/Libitum/jellyfin-plugin-douban)",
     "owner": "Libitum",
-    "overview": "Manage Your Movie/TV by Douban\n\n[Source Code](https://github.com/Libitum/jellyfin-plugin-douban)",
+    "overview": "Manage Your Movie/TV by Douban",
     "versions": [
       {
         "checksum": "b01077ed8b477a2b94fd4c3e3ce063bb",
@@ -7288,10 +7281,10 @@
   },
   {
     "category": "Metadata",
-    "description": "bgm.tv metadata provider for Jellyfin",
+    "description": "bgm.tv metadata provider for Jellyfin\n\n[Source Code](https://github.com/kookxiang/jellyfin-plugin-bangumi)",
     "guid": "41b59f1b-a6cf-474a-b416-785379cbd856",
     "name": "Bangumi",
-    "overview": "Jellyfin bgm.tv 数据源插件，用于拉取中文番剧信息及图片。\n\n[Source Code](https://github.com/kookxiang/jellyfin-plugin-bangumi)",
+    "overview": "Jellyfin bgm.tv 数据源插件，用于拉取中文番剧信息及图片。",
     "owner": "kookxiang",
     "versions": [
       {
@@ -7427,8 +7420,8 @@
   {
     "guid": "9482dc3b-48aa-4d3b-8224-9128d1e8e0cd",
     "name": "Intros",
-    "overview": "Display flashy intros before movies and other videos\n\n[Source Code](https://github.com/dkanada/jellyfin-plugin-intros)",
-    "description": "Select a flashy video from prerolls.video to run before any video content.",
+    "overview": "Display flashy intros before movies and other videos",
+    "description": "Select a flashy video from prerolls.video to run before any video content.\n\n[Source Code](https://github.com/dkanada/jellyfin-plugin-intros)",
     "owner": "dkanada",
     "category": "Other",
     "versions": [
@@ -7453,8 +7446,8 @@
   {
     "guid": "5B39DA44-5314-4940-8E26-54C821C17F86",
     "name": "Danmu",
-    "description": "jellyfin的b站弹幕自动下载插件，会匹配b站番剧/电影视频，自动下载对应弹幕，并定时更新。",
-    "overview": "jellyfin弹幕下载插件\n\n[Source Code](https://github.com/cxfksword/jellyfin-plugin-danmu)",
+    "description": "jellyfin的b站弹幕自动下载插件，会匹配b站番剧/电影视频，自动下载对应弹幕，并定时更新。\n\n[Source Code](https://github.com/cxfksword/jellyfin-plugin-danmu)",
+    "overview": "jellyfin弹幕下载插件",
     "owner": "cxfksword",
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
@@ -7657,7 +7650,7 @@
     "category": "Metadata",
     "guid": "0c136f8a-ff77-4f2b-ade5-13462cae6216",
     "name": "КиноПоиск",
-    "overview": "Информация о фильмах и сериалах с КиноПоиска\n\n[Source Code](https://github.com/LinFor/jellyfin-plugin-kinopoisk)",
+    "overview": "Информация о фильмах и сериалах с КиноПоиска",
     "owner": "LinFor & skrashevich",
     "description": "Загружает рейтинг, описания, актёров, трейлеры и т.д. с сайта КиноПоиск. Может потребоваться зарегистрировать свой ApiToken, см. информацию в параметрах плагина. Для точного распознавания рекомендуется указывать id фильма с сайта КиноПоиск в имени файла в формате kp-12345 или kp12345. Подробнее см. https://github.com/LinFor/jellyfin-plugin-kinopoisk/blob/master/README.md\n",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/КиноПоиск.png",
@@ -7849,8 +7842,8 @@
   {
     "guid": "5e7fe7f0-b048-429e-a431-b1a7e69c930d",
     "name": "LastFM",
-    "description": "Scrobble LastFM plays with Jellyfin",
-    "overview": "A plugin that scrobbles your Jellyfin music to LastFM\n\n[Source Code](https://github.com/jesseward/jellyfin-plugin-lastfm)",
+    "description": "Scrobble LastFM plays with Jellyfin\n\n[Source Code](https://github.com/jesseward/jellyfin-plugin-lastfm)",
+    "overview": "A plugin that scrobbles your Jellyfin music to LastFM",
     "owner": "Jesse Ward",
     "category": "music",
     "versions": [
@@ -7940,9 +7933,9 @@
     "category": "Metadata",
     "guid": "7834517B-1A9A-4758-9DD3-73FE02C98AA3",
     "name": "Open Douban",
-    "description": "Scrape media's metadata from Douban",
+    "description": "Scrape media's metadata from Douban\n\n[Source Code](https://github.com/caryyu/jellyfin-plugin-repo)",
     "owner": "caryyu",
-    "overview": "Get your Movie/TV metadata from Douban\n\n[Source Code](https://github.com/caryyu/jellyfin-plugin-repo)",
+    "overview": "Get your Movie/TV metadata from Douban",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Douban.png",
     "versions": [
       {
@@ -8103,9 +8096,9 @@
     "category": "Metadata",
     "guid": "4EAEDA51-B4CF-45F8-99B3-EB2B1F6D3A53",
     "name": "MaxSubtitle",
-    "description": "Download subtitles from Internet",
+    "description": "Download subtitles from Internet\n\n[Source Code](https://github.com/caryyu/jellyfin-plugin-repo)",
     "owner": "caryyu",
-    "overview": "Get your Movie/TV subtitles from Internet\n\n[Source Code](https://github.com/caryyu/jellyfin-plugin-repo)",
+    "overview": "Get your Movie/TV subtitles from Internet",
     "versions": [
       {
         "checksum": "af05043cdfddb8b0ebcf43a3fe2324d2",
@@ -8144,8 +8137,8 @@
   {
     "guid": "69104c31-d23f-4040-b99c-8913c09751d6",
     "name": "TMDb Trailers",
-    "description": "Watch trailers from TMDb\n",
-    "overview": "Watch trailers from TMDb\n\n[Source Code](https://github.com/crobibero/jellyfin-plugin-tmdb-trailers)",
+    "description": "Watch trailers from TMDb\n\n\n[Source Code](https://github.com/crobibero/jellyfin-plugin-tmdb-trailers)",
+    "overview": "Watch trailers from TMDb",
     "owner": "crobibero",
     "category": "Channels",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TMDb Trailers.png",
@@ -8211,8 +8204,8 @@
   {
     "guid": "5aeab01b-2ef8-45c6-bb6b-16ce9cb268d4",
     "name": "subbuzz",
-    "description": "Download subtitles from various sites.",
-    "overview": "Download subtitles for your media\n\n[Source Code](https://github.com/josdion/subbuzz)",
+    "description": "Download subtitles from various sites.\n\n[Source Code](https://github.com/josdion/subbuzz)",
+    "overview": "Download subtitles for your media",
     "owner": "josdion",
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/subbuzz.png",
@@ -8230,8 +8223,8 @@
   {
     "guid": "1e9e5d38-6e67-4615-8719-e98a5c34f004",
     "name": "Streamyfin",
-    "overview": "[Source Code](https://github.com/streamyfin/jellyfin-plugin-streamyfin)",
-    "description": "",
+    "overview": "",
+    "description": "[Source Code](https://github.com/streamyfin/jellyfin-plugin-streamyfin)",
     "owner": "lostb1t",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Streamyfin.png",
@@ -8649,8 +8642,8 @@
   {
     "guid": "d20aa9ed-eafc-4578-b320-4e3b7093129c",
     "name": "FinTube",
-    "overview": "Import Videos/Music from YouTube\n\n[Source Code](https://github.com/AECX/FinTube)",
-    "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.",
+    "overview": "Import Videos/Music from YouTube",
+    "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.\n\n[Source Code](https://github.com/AECX/FinTube)",
     "owner": "Maurice 'AECX' Henke",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/FinTube.png",
@@ -8668,8 +8661,8 @@
   {
     "guid": "d20aa9ed-eafc-4578-b320-4e3b7093129c",
     "name": "FinTube",
-    "overview": "Import Videos/Music from YouTube\n\n[Source Code](https://github.com/AECX/FinTube)",
-    "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.",
+    "overview": "Import Videos/Music from YouTube",
+    "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.\n\n[Source Code](https://github.com/AECX/FinTube)",
     "owner": "Maurice 'AECX' Henke",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/FinTube.png",
@@ -8688,9 +8681,9 @@
     "category": "Metadata",
     "guid": "f962a752-15e8-4a43-b42a-6d9cfba35ce1",
     "name": "Douban",
-    "description": "提供豆瓣电影/电视剧的元数据 Provide Movie/TV metadata from Douban",
+    "description": "提供豆瓣电影/电视剧的元数据 Provide Movie/TV metadata from Douban\n\n[Source Code](https://github.com/Xzonn/xzonn.github.io)",
     "owner": "Xzonn",
-    "overview": "Jellyfin 豆瓣元数据插件 Douban Metadata Provider for Jellyfin\n\n[Source Code](https://github.com/Xzonn/xzonn.github.io)",
+    "overview": "Jellyfin 豆瓣元数据插件 Douban Metadata Provider for Jellyfin",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Douban.png",
     "versions": [
       {
@@ -8867,8 +8860,8 @@
   {
     "guid": "be72d436-ab23-44b4-8625-9a8f3892d27a",
     "name": "NFO Chapters",
-    "description": "This plugin extends the NFO parser for your Movies. You can specify your own chapters in the NFO which will get picked up by the plugin during a library scan.\n",
-    "overview": "This plugin enables the use of chapter tags in NFOs\n\n[Source Code](https://github.com/Viperinius/jellyfin-plugin-nfo-chapters)",
+    "description": "This plugin extends the NFO parser for your Movies. You can specify your own chapters in the NFO which will get picked up by the plugin during a library scan.\n\n\n[Source Code](https://github.com/Viperinius/jellyfin-plugin-nfo-chapters)",
+    "overview": "This plugin enables the use of chapter tags in NFOs",
     "owner": "Viperinius",
     "category": "Metadata",
     "versions": [
@@ -8918,8 +8911,8 @@
   {
     "guid": "f03d0adb-289f-4986-bd6f-2468025249b3",
     "name": "Spotify Import",
-    "description": "This plugin enables you to import playlists from Spotify to your Jellyfin server automatically. It provides a scheduled task that queries a given list of Spotify playlists and tries to recreate them as best as possible in Jellyfin.\n",
-    "overview": "This plugin imports playlists from Spotify.\n\n[Source Code](https://github.com/Viperinius/jellyfin-plugin-spotify-import)",
+    "description": "This plugin enables you to import playlists from Spotify to your Jellyfin server automatically. It provides a scheduled task that queries a given list of Spotify playlists and tries to recreate them as best as possible in Jellyfin.\n\n\n[Source Code](https://github.com/Viperinius/jellyfin-plugin-spotify-import)",
+    "overview": "This plugin imports playlists from Spotify.",
     "owner": "Viperinius",
     "category": "Metadata",
     "versions": [
@@ -9129,8 +9122,8 @@
   {
     "guid": "6bb8dbba-2aaa-4b19-9da4-f3bbb6c44091",
     "name": "Authelia Authentication",
-    "description": "Authenticate your Jellyfin with Authelia, and optionally create users who do not yet exist automatically.\n\nThis plugin uses Authelia HTTP API for authentication. Unlike with an SSO plugin, this allows using the existing Jellyfin login UI and API, which is compatible with all existing Jellyfin clients.\nThe main drawback of this approach is that 2FA is not supported.\n",
-    "overview": "Authenticate users via Authelia\n\n[Source Code](https://github.com/nikarh/jellyfin-plugin-authelia)",
+    "description": "Authenticate your Jellyfin with Authelia, and optionally create users who do not yet exist automatically.\n\nThis plugin uses Authelia HTTP API for authentication. Unlike with an SSO plugin, this allows using the existing Jellyfin login UI and API, which is compatible with all existing Jellyfin clients.\nThe main drawback of this approach is that 2FA is not supported.\n\n\n[Source Code](https://github.com/nikarh/jellyfin-plugin-authelia)",
+    "overview": "Authenticate users via Authelia",
     "owner": "nikarh",
     "category": "Authentication",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Authelia Authentication.png",
@@ -9230,8 +9223,8 @@
   {
     "name": "Jellyfin Tweaks",
     "guid": "dfee3828-01df-49df-85b1-5c2b75e5ea1a",
-    "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.",
-    "overview": "Tweaks for Jellyfin\n\n[Source Code](https://github.com/n00bcodr/JellyfinTweaks)",
+    "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.\n\n[Source Code](https://github.com/n00bcodr/JellyfinTweaks)",
+    "overview": "Tweaks for Jellyfin",
     "owner": "n00bcodr",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Tweaks.png",
@@ -9321,8 +9314,8 @@
   {
     "guid": "09612e52-0f93-41ab-a6ab-5a19479f5315",
     "name": "Smart Collections",
-    "overview": "Enables creation of Smart Collections based on Tag\n\n[Source Code](https://github.com/johnpc/jellyfin-plugin-smart-collections)",
-    "description": "Enables creation of Smart Collections based on Tag",
+    "overview": "Enables creation of Smart Collections based on Tag",
+    "description": "Enables creation of Smart Collections based on Tag\n\n[Source Code](https://github.com/johnpc/jellyfin-plugin-smart-collections)",
     "owner": "johnpc",
     "category": "General",
     "versions": [
@@ -9411,8 +9404,8 @@
   {
     "guid": "c4772eae-799e-490d-abff-4de21f99c95e",
     "name": "MediaTracker",
-    "description": "MediaTracker scrobbler",
-    "overview": "MediaTracker scrobbler\n\n[Source Code](https://github.com/bonukai/jellyfin-plugin-mediatracker)",
+    "description": "MediaTracker scrobbler\n\n[Source Code](https://github.com/bonukai/jellyfin-plugin-mediatracker)",
+    "overview": "MediaTracker scrobbler",
     "owner": "bonukai",
     "category": "General",
     "versions": [
@@ -9453,8 +9446,8 @@
   {
     "guid": "f4a1b2c3-d4e5-6f7a-8b9c-0d1e2f3a4b5c",
     "name": "Lyrics",
-    "description": "Lyrics plugin that downloads lyrics from lrclib.net with configurable search options\n",
-    "overview": "Lyrics plugin with configurable search options and automatic library scanning\n\n[Source Code](https://github.com/Felitendo/jellyfin-plugin-lyrics)",
+    "description": "Lyrics plugin that downloads lyrics from lrclib.net with configurable search options\n\n\n[Source Code](https://github.com/Felitendo/jellyfin-plugin-lyrics)",
+    "overview": "Lyrics plugin with configurable search options and automatic library scanning",
     "owner": "Felitendo",
     "category": "Metadata",
     "versions": [
@@ -9487,8 +9480,8 @@
   {
     "guid": "06ebf4a9-1326-4327-968d-8da00e1ea2eb",
     "name": "Auto Collections",
-    "overview": "Enables creation of Auto Collections based on Tag\n\n[Source Code](https://github.com/KeksBombe/jellyfin-plugin-auto-collections)",
-    "description": "Enables creation of Auto Collections based on Tag",
+    "overview": "Enables creation of Auto Collections based on Tag",
+    "description": "Enables creation of Auto Collections based on Tag\n\n[Source Code](https://github.com/KeksBombe/jellyfin-plugin-auto-collections)",
     "owner": "KeksBombe",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Auto Collections.jpg",
     "category": "General",
@@ -9729,8 +9722,8 @@
   },
   {
     "name": "AdultsSubtitle",
-    "description": "AdultsSubtitle Plugin for Jellyfin",
-    "overview": "AdultsSubtitle Plugin for Jellyfin\n\n[Source Code](https://github.com/fallingrust/Jellyfin-Plugin-AdultsSubtitle)",
+    "description": "AdultsSubtitle Plugin for Jellyfin\n\n[Source Code](https://github.com/fallingrust/Jellyfin-Plugin-AdultsSubtitle)",
+    "overview": "AdultsSubtitle Plugin for Jellyfin",
     "owner": "AdultsSubtitle",
     "category": "AdultsSubtitle",
     "guid": "898269f2-f951-c3ff-b714-9e8f785be3b2",
@@ -9853,8 +9846,8 @@
   {
     "guid": "12b44f20-6cfb-4be5-9950-3d0fbe74fa35",
     "name": "Refresh Sparse Items",
-    "description": "Refresh episodes, seasons, series that are missing data you define.\n",
-    "overview": "Refresh episodes, seasons, series that are missing data you define.\n\n[Source Code](https://github.com/SenorSmartyPants/jellyfin-plugin-refreshsparse)",
+    "description": "Refresh episodes, seasons, series that are missing data you define.\n\n\n[Source Code](https://github.com/SenorSmartyPants/jellyfin-plugin-refreshsparse)",
+    "overview": "Refresh episodes, seasons, series that are missing data you define.",
     "owner": "SenorSmartyPants",
     "category": "Metadata",
     "versions": [
@@ -9887,8 +9880,8 @@
   {
     "guid": "2919b0df-8252-4c02-8210-d628adcd651b",
     "name": "Custom Javascript",
-    "overview": "Inject custom javascript to the Jellyfin web ui\n\n[Source Code](https://github.com/johnpc/jellyfin-plugin-custom-javascript)",
-    "description": "Inject custom javascript to the Jellyfin web ui",
+    "overview": "Inject custom javascript to the Jellyfin web ui",
+    "description": "Inject custom javascript to the Jellyfin web ui\n\n[Source Code](https://github.com/johnpc/jellyfin-plugin-custom-javascript)",
     "owner": "johnpc",
     "category": "General",
     "versions": [
@@ -9922,9 +9915,9 @@
     "category": "Metadata",
     "guid": "af765402-cf54-4aa5-8fec-3ceb44fd8476",
     "name": "Stash",
-    "description": "",
+    "description": "[Source Code](https://github.com/DirtyRacer1337/Jellyfin.Plugin.Stash)",
     "owner": "DirtyRacer",
-    "overview": "[Source Code](https://github.com/DirtyRacer1337/Jellyfin.Plugin.Stash)",
+    "overview": "",
     "versions": [
       {
         "checksum": "68d04367c1d49880795c6de53c912e1e",
@@ -9947,8 +9940,8 @@
   {
     "guid": "e41ef0c4-c413-41ba-b4fa-8c565dc3c969",
     "name": "Themerr",
-    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB",
-    "overview": "Automatically add theme songs to movies and tv shows using ThemerrDB\n\n[Source Code](https://github.com/LizardByte/Themerr-jellyfin)",
+    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB\n\n[Source Code](https://github.com/LizardByte/Themerr-jellyfin)",
+    "overview": "Automatically add theme songs to movies and tv shows using ThemerrDB",
     "owner": "LizardByte",
     "category": "Metadata",
     "image": "themerr-jellyfin.png",
@@ -10664,9 +10657,9 @@
     "category": "Metadata",
     "guid": "dc97d0c6-28b0-4242-afb4-5833ae1b3715",
     "name": "TubeArchivistMetadata",
-    "description": "TubeArchivistMetadata is a plugin that automatically manages metadata for videos downloaded with TubeArchivist from YouTube.\n",
+    "description": "TubeArchivistMetadata is a plugin that automatically manages metadata for videos downloaded with TubeArchivist from YouTube.\n\n\n[Source Code](https://github.com/tubearchivist/tubearchivist-jf-plugin)",
     "owner": "DarkFighterLuke",
-    "overview": "Metadata for your TubeArchivist library on Jellyfin\n\n[Source Code](https://github.com/tubearchivist/tubearchivist-jf-plugin)",
+    "overview": "Metadata for your TubeArchivist library on Jellyfin",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TubeArchivistMetadata.png",
     "versions": [
       {
@@ -10810,8 +10803,8 @@
   {
     "guid": "5aeab01b-2ef8-45c6-bb6b-16ce9cb268d4",
     "name": "subbuzz",
-    "description": "Download subtitles from various sites.",
-    "overview": "Download subtitles for your media\n\n[Source Code](https://github.com/josdion/subbuzz)",
+    "description": "Download subtitles from various sites.\n\n[Source Code](https://github.com/josdion/subbuzz)",
+    "overview": "Download subtitles for your media",
     "owner": "josdion",
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/subbuzz.png",
@@ -10829,8 +10822,8 @@
   {
     "guid": "3C96F5BC-4182-4B86-B05D-F730F2611E45",
     "name": "Smart Playlist",
-    "description": "Create automatically updating playlists based on rules.\n",
-    "overview": "Create automatically updating playlists based on rules.\n\n[Source Code](https://github.com/ankenyr/jellyfin-smartplaylist-plugin)",
+    "description": "Create automatically updating playlists based on rules.\n\n\n[Source Code](https://github.com/ankenyr/jellyfin-smartplaylist-plugin)",
+    "overview": "Create automatically updating playlists based on rules.",
     "owner": "ankenyr",
     "category": "General",
     "versions": [
@@ -10855,8 +10848,8 @@
   {
     "guid": "b4b4353e-dc57-4398-82c1-de9079e7146a",
     "name": "YouTube Metadata",
-    "description": "Provides YouTube metadata from the YouTube API and Youtube-dl metadata files.",
-    "overview": "YouTube metadata provider\n\n[Source Code](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin)",
+    "description": "Provides YouTube metadata from the YouTube API and Youtube-dl metadata files.\n\n[Source Code](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin)",
+    "overview": "YouTube metadata provider",
     "owner": "ankenyr",
     "category": "Metadata",
     "versions": [
@@ -10947,7 +10940,7 @@
     "description": "This plugin allows users to sign in through an SSO provider (such as Google, Facebook, or your own provider). This enables one-click signin.\nReview documentation at https://github.com/9p4/jellyfin-plugin-sso\n",
     "guid": "505ce9d1-d916-42fa-86ca-673ef241d7df",
     "name": "SSO Authentication",
-    "overview": "Authenticate users against an SSO provider.\n\n[Source Code](https://github.com/9p4/jellyfin-plugin-sso\n)",
+    "overview": "Authenticate users against an SSO provider.",
     "owner": "9p4",
     "versions": [
       {
