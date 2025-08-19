@@ -61,3 +61,4 @@ https://raw.githubusercontent.com/ankenyr/jellyfin-plugin-repo/master/manifest.j
 https://raw.githubusercontent.com/9p4/jellyfin-plugin-sso/manifest-release/manifest.json
 https://raw.githubusercontent.com/n00bcodr/jellyfin-javascript-injector/main/manifest.json
 https://raw.githubusercontent.com/n00bcodr/jellyfin-enhanced/main/manifest.json
+https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-jellysleep/main/manifest.json
