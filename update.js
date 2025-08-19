@@ -97,7 +97,7 @@ async function processDescriptions(pluginData) {
         for (const plugin of pluginData) {
             const repoUrl = findGithubUrl(plugin);
             if (repoUrl) {
-                const sourceLink = `<br><br><a href="${repoUrl}">Source Code</a>`;
+                const sourceLink = `\n\n${repoUrl}`;
                 const descriptionProp = ['description', 'Description', 'overview'].find(p => plugin[p]);
 
                 if (descriptionProp) {
