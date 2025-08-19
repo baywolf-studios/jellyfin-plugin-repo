@@ -98,17 +98,18 @@ async function processDescriptions(pluginData) {
             const repoUrl = findGithubUrl(plugin);
             if (repoUrl) {
                 const sourceLink = `\n\n[Source Code](${repoUrl})`;
-                const descriptionProp = plugin.overview ? 'overview' : (plugin.Description ? 'Description' : null);
+                const descriptionProp = ['description', 'Description', 'overview'].find(p => plugin[p]);
+
                 if (descriptionProp) {
                     if (!plugin[descriptionProp].includes(repoUrl)) {
                         plugin[descriptionProp] += sourceLink;
                     }
                 } else {
-                    plugin.overview = sourceLink.trim();
+                    plugin.description = sourceLink.trim();
                 }
             }
         }
-        console.log(`Sucessfully injected source URLs`);
+    console.log(`Sucessfully injected source URLs`);
     } catch (err) {
         console.error('Error processing descriptions:', err);
     }
@@ -150,8 +151,8 @@ async function writeManifest(dataToWrite){
 
 async function main() {
     const plugins = await getSources();
-    await processImages(plugins);
     await processDescriptions(plugins);
+    await processImages(plugins);
     await writeManifest(plugins);
 }
 
