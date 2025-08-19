@@ -59,3 +59,5 @@ https://raw.githubusercontent.com/tubearchivist/tubearchivist-jf-plugin/master/m
 https://raw.githubusercontent.com/josdion/subbuzz/master/repo/jellyfin_10.10.json
 https://raw.githubusercontent.com/ankenyr/jellyfin-plugin-repo/master/manifest.json
 https://raw.githubusercontent.com/9p4/jellyfin-plugin-sso/manifest-release/manifest.json
+https://raw.githubusercontent.com/n00bcodr/jellyfin-javascript-injector/main/manifest.json
+https://raw.githubusercontent.com/n00bcodr/jellyfin-enhanced/main/manifest.json
