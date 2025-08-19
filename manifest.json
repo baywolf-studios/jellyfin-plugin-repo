@@ -3770,6 +3770,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/File Transformation.png",
     "versions": [
       {
+        "version": "2.3.1.0",
+        "changelist": "TODO",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.3.1.0/Release.zip",
+        "checksum": "E859FEBDCDAB9C7B2491545B5597E5CF",
+        "timestamp": "2025-08-18T22:44:47",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.0.0",
         "changelist": "TODO",
         "targetAbi": "10.10.7.0",
