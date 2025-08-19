@@ -50,7 +50,7 @@ async function clearImagesFolder() {
 }
 
 async function downloadImage(url, filename) {
-    console.log(`    -> Downloading image: ${url} as ${filename}`);
+    console.log(`Downloading image: ${url} as ${filename}`);
     try {
         const res = await fetch(url, { headers: { 'User-Agent': userAgent } });
         if (!res.ok) throw new Error(`Failed to fetch image: ${res.status}`);
@@ -74,6 +74,44 @@ function getPluginId(plugin) {
 
 function hashString(str) {
     return crypto.createHash('md5').update(str).digest('hex');
+}
+
+function findGithubUrl(obj) {
+    if (!obj) return null;
+    for (const key in obj) {
+        if (typeof obj[key] === 'string') {
+            const match = obj[key].match(/https?:\/\/github\.com\/[^\/]+\/[^\/]+/);
+            if (match) {
+                return match[0];
+            }
+        } else if (typeof obj[key] === 'object' && obj[key] !== null) {
+            const url = findGithubUrl(obj[key]);
+            if (url) return url;
+        }
+    }
+    return null;
+}
+
+async function processDescriptions(pluginData) {
+    try {
+        for (const plugin of pluginData) {
+            const repoUrl = findGithubUrl(plugin);
+            if (repoUrl) {
+                const sourceLink = `\n\n[Source Code](${repoUrl})`;
+                const descriptionProp = plugin.overview ? 'overview' : (plugin.Description ? 'Description' : null);
+                if (descriptionProp) {
+                    if (!plugin[descriptionProp].includes(repoUrl)) {
+                        plugin[descriptionProp] += sourceLink;
+                    }
+                } else {
+                    plugin.overview = sourceLink.trim();
+                }
+            }
+        }
+        console.log(`Sucessfully injected source URLs`);
+    } catch (err) {
+        console.error('Error processing descriptions:', err);
+    }
 }
 
 async function processImages(pluginData) {
@@ -113,6 +151,7 @@ async function writeManifest(dataToWrite){
 async function main() {
     const plugins = await getSources();
     await processImages(plugins);
+    await processDescriptions(plugins);
     await writeManifest(plugins);
 }
 
