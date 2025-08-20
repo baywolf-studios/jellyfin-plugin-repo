@@ -9886,40 +9886,6 @@
     ]
   },
   {
-    "guid": "2919b0df-8252-4c02-8210-d628adcd651b",
-    "name": "Custom Javascript",
-    "overview": "Inject custom javascript to the Jellyfin web ui",
-    "description": "Inject custom javascript to the Jellyfin web ui\n\nhttps://github.com/johnpc/jellyfin-plugin-custom-javascript",
-    "owner": "johnpc",
-    "category": "General",
-    "versions": [
-      {
-        "version": "0.0.0.2",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-custom-javascript/releases/tag/0.0.0.2)\n",
-        "targetAbi": "10.9.9.0",
-        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-custom-javascript/releases/download/0.0.0.2/custom-javascript-0.0.0.2.zip",
-        "checksum": "d140d65a5b2860d5aaf12bb46ca9685f",
-        "timestamp": "2025-08-05T02:29:07Z"
-      },
-      {
-        "version": "0.0.0.1",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-custom-javascript/releases/tag/0.0.0.1)\n",
-        "targetAbi": "10.9.9.0",
-        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-custom-javascript/releases/download/0.0.0.1/custom-javascript-0.0.0.1.zip",
-        "checksum": "3b6abea22035e29d64cf967e4fff9271",
-        "timestamp": "2025-03-09T20:48:21Z"
-      },
-      {
-        "version": "0.0.0.1",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-custom-javascript/releases/tag/0.0.0.1)\n",
-        "targetAbi": "10.9.9.0",
-        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-custom-javascript/releases/download/0.0.0.1/custom-javascript-0.0.0.1.zip",
-        "checksum": "7171c5c4529d8c4b72d42a0d9104090d",
-        "timestamp": "2025-03-09T20:30:32Z"
-      }
-    ]
-  },
-  {
     "category": "Metadata",
     "guid": "af765402-cf54-4aa5-8fec-3ceb44fd8476",
     "name": "Stash",
@@ -11038,6 +11004,127 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2022-07-01T01:20:33Z",
         "version": "0.0.0.9000"
+      }
+    ]
+  },
+  {
+    "guid": "f5a34f7b-2e8a-4e6a-a722-3a216a81b374",
+    "name": "JavaScript Injector",
+    "overview": "Inject custom javascript(s) to the Jellyfin Web UI",
+    "description": "Inject custom javascript(s) to the Jellyfin Web UI\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-file-transformation) to 'inject' javascript without modifying index.html\n - This is to help with all the permission issues for docker installs.\n - Fallback if file-transformation-plugin is not installed to the regular index.html modification\n",
+    "owner": "n00bcodr",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JavaScript Injector.png",
+    "versions": [
+      {
+        "version": "2.0.0.0",
+        "changelog": "- Use [file-transformation-plugin](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation) to 'inject' javascript without modifying index.html\n - This is to help with all the permission issues for docker installs.\n - Fallback if file-transformation-plugin is not installed to the regular index.html modification\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/n00bcodr/jellyfin-javascript-injector/releases/download/2.0.0.0/javascript-injector-2.0.0.0.zip",
+        "checksum": "89c5e8c0d140e8fcb8826202b1b91de8",
+        "timestamp": "2025-08-19T13:27:21Z"
+      },
+      {
+        "version": "1.1.1.1",
+        "changelog": "- Wrap the injected script block with clear HTML comments for safer and more reliable identification. \n- Update removal logic to use specific regex patterns for injection formats, ensuring idempotent upgrades and preventing accidental removal of unrelated scripts.",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/n00bcodr/jellyfin-javascript-injector/releases/download/1.1.1.1/javascript-injector-1.1.1.1.zip",
+        "checksum": "db8d7806b3e112ddaf40caa55fdb0f1d",
+        "timestamp": "2025-08-14T06:30:31Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "- Wrap the injected script block with clear HTML comments for safer and more reliable identification. \n- Update removal logic to use specific regex patterns for injection formats, ensuring idempotent upgrades and preventing accidental removal of unrelated scripts.",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/n00bcodr/jellyfin-javascript-injector/releases/download/1.1.1.0/javascript-injector-1.1.1.0.zip",
+        "checksum": "39620ac480c10a6a68a7a6fdf2c93990",
+        "timestamp": "2025-08-12T04:44:41Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "- Script Visibility \n - Add an option to only load a script for an authenticated session.",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/n00bcodr/jellyfin-javascript-injector/releases/download/1.1.0.0/javascript-injector-1.1.0.0.zip",
+        "checksum": "21817433c4aeb9d56774ff376d136240",
+        "timestamp": "2025-08-10T05:22:03Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Support multiple scripts and dynamic injection",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/n00bcodr/jellyfin-javascript-injector/releases/download/1.0.0.0/javascript-injector-1.0.0.0.zip",
+        "checksum": "eb340151e6d2c29690ced20740fba52e",
+        "timestamp": "2025-07-30T13:17:02Z"
+      }
+    ]
+  },
+  {
+    "name": "JellyfinEnhanced",
+    "guid": "f69e946a-4b3c-4e9a-8f0a-8d7c1b2c4d9b",
+    "description": "A combination of the Jellyfin Enhanced and Jellyfin Elsewhere userscripts, providing a comprehensive set of tweaks and features for Jellyfin.\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-file-transformation) to 'inject' javascript without modifying index.html\n -This is to help with all the permission issues for docker installs.\n - Fallback if file-transformation-plugin is not installed to the regulat index.html modification\n - Add an option to reset Jellyfin Enhanced settings to default for all users",
+    "overview": "Jellyfin Enhanced and Jellyfin Elsewhere for a better Jellyfin experience.",
+    "owner": "n00bcodr",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JellyfinEnhanced.png",
+    "versions": [
+      {
+        "checksum": "deb52b57618432d7380b22f184499773",
+        "changelog": "Use [file-transformation-plugin](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation) to 'inject' javascript without modifying index.html\n -This is to help with all the permission issues for docker installs.\n - Fallback if file-transformation-plugin is not installed to the regulat index.html modification\n - Add an option to reset Jellyfin Enhanced settings to default for all users",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/5.1.0.0/Jellyfin.Plugin.JellyfinEnhanced_5.1.0.0.zip",
+        "timestamp": "2025-08-18T16:34:21Z",
+        "version": "5.1.0.0"
+      },
+      {
+        "checksum": "88e4b205de902cdd3062d648bfb7ec7d",
+        "changelog": "Initial release. \n - Combine Jellyfin Enhanced and Jellyfin Elsewhere \n - Add Remove from Continue Watching \n - Add a button to open the panel in sidebar",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/5.0.0.0/Jellyfin.Plugin.JellyfinEnhanced_5.0.0.0.zip",
+        "timestamp": "2025-08-16T12:48:38Z",
+        "version": "5.0.0.0"
+      }
+    ]
+  },
+  {
+    "guid": "a760bbb5-7b7b-4fda-951c-f3c39d689a8f",
+    "name": "Jellysleep",
+    "overview": "Sleep timer plugin that automatically stops playback after a specified time or episodes",
+    "description": "Jellysleep adds sleep timer functionality to Jellyfin. Set timers by duration (15min, 30min, 1h, 2h) or episodes.\n\nhttps://github.com/jon4hz/jellyfin-plugin-jellysleep",
+    "owner": "jon4hz",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellysleep.png",
+    "versions": [
+      {
+        "version": "0.3.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.3.0)\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.3.0/jellyfin-plugin-jellysleep-0.3.0.zip",
+        "checksum": "8279189c5b4fc7d4597d1a4ae0f8ce3d",
+        "timestamp": "2025-08-19T18:35:57Z"
+      },
+      {
+        "version": "0.2.1.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.2.1)\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.2.1/jellyfin-plugin-jellysleep-0.2.1.zip",
+        "checksum": "dbb140468b74aa7a525045ca8377f90a",
+        "timestamp": "2025-08-10T22:36:44Z"
+      },
+      {
+        "version": "0.2.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.2.0)\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.2.0/jellyfin-plugin-jellysleep-0.2.0.zip",
+        "checksum": "0054ccf959612f6db75b2231947048af",
+        "timestamp": "2025-08-10T21:43:53Z"
+      },
+      {
+        "version": "0.1.1",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.1.1)\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.1.1/jellyfin-plugin-jellysleep-0.1.1.zip",
+        "checksum": "00582d01decb9ce2b310ee0554f76403",
+        "timestamp": "2025-08-09T00:20:36Z"
       }
     ]
   }
