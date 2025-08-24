@@ -3652,7 +3652,7 @@
     "versions": [
       {
         "version": "0.1.3.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.1.3.0/Release.zip",
         "checksum": "BD0AA903F58354182FD02802E3E30649",
@@ -3663,7 +3663,7 @@
       },
       {
         "version": "0.1.2.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.1.2.0/Release.zip",
         "checksum": "B85401655041A8A5137138A5779C342A",
@@ -3674,7 +3674,7 @@
       },
       {
         "version": "0.1.1.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.1.1.0/Release.zip",
         "checksum": "EFF867104070C24D43FC14ED9C12514F",
@@ -3685,7 +3685,7 @@
       },
       {
         "version": "0.1.0.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.1.0.0/Release.zip",
         "checksum": "4B06F107099F3FD7127D6032FAC78090",
@@ -3706,55 +3706,11 @@
     "versions": [
       {
         "version": "2.2.0.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.2.0.0/Release.zip",
         "checksum": "48C2F7F644CC13C9CBB6187FFD34289A",
         "timestamp": "2025-04-18T20:02:42",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.1.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.1.1.0/Release.zip",
-        "checksum": "7F3831B3969750A86CDBDB89A02FB840",
-        "timestamp": "2025-03-26T22:38:21",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.1.0/Release.zip",
-        "checksum": "ABEE78DCD3BD0CEF7C11437668A56143",
-        "timestamp": "2025-02-17T21:46:43",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.1",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.0.1/Release.zip",
-        "checksum": "AA96B1CC9216E19ADBB4C3BD7ACDA5FE",
-        "timestamp": "2025-02-12T23:25:58",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.0.0/Release.zip",
-        "checksum": "14678393C47D852E7DFD3A428D54CDB7",
-        "timestamp": "2025-02-09T18:38:37",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
@@ -3770,8 +3726,19 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/File Transformation.png",
     "versions": [
       {
+        "version": "2.3.2.0",
+        "changelog": "No changelog supplied",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.3.2.0/Release-10.10.7.zip",
+        "checksum": "3D46DFDACD6B89516F5924A602186D0E",
+        "timestamp": "2025-08-23T19:53:44",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.1.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.3.1.0/Release.zip",
         "checksum": "E859FEBDCDAB9C7B2491545B5597E5CF",
@@ -3782,110 +3749,11 @@
       },
       {
         "version": "2.3.0.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.3.0.0/Release.zip",
         "checksum": "85247BB192A445C993020C8FE9598B7B",
         "timestamp": "2025-04-18T20:02:43",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.2.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.2.2.0/Release.zip",
-        "checksum": "BF569B2F00C1E4C78993C7A7403B1CB1",
-        "timestamp": "2025-04-06T21:19:15",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.2.1.0/Release.zip",
-        "checksum": "45BBF0CD45753978E10FD78EEF5E3A7B",
-        "timestamp": "2025-03-10T21:58:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.0.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.2.0.0/Release.zip",
-        "checksum": "C1A18DDE0448E02656BB32B3DEE034A3",
-        "timestamp": "2025-03-01T16:59:08",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.1.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.1.1.0/Release.zip",
-        "checksum": "34C6986CCBC22EB734E5E4A45E8864B2",
-        "timestamp": "2025-02-24T22:40:13",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.1.0/Release.zip",
-        "checksum": "9A1AD37DF9827F83F1A57F4322D8F857",
-        "timestamp": "2025-02-17T21:46:43",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.3",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.0.3/Release.zip",
-        "checksum": "89550ECFA72E66141331904045DAED30",
-        "timestamp": "2025-02-12T23:22:20",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.2",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.0.2/Release.zip",
-        "checksum": "B1C4BCBD2EB35BFCD2CB3C2319B0077B",
-        "timestamp": "2025-02-12T16:39:59",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.1",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.0.1/Release.zip",
-        "checksum": "D3BECA1462E81CDE1B581199E69A2028",
-        "timestamp": "2025-02-12T13:42:25",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.0.0/Release.zip",
-        "checksum": "51E0FFD34BABA7E41B9F979B85937612",
-        "timestamp": "2025-02-09T18:30:23",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
@@ -3902,7 +3770,7 @@
     "versions": [
       {
         "version": "2.3.1.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.3.1.0/Release.zip",
         "checksum": "A7F111EB1AA031090774082AAB6A1DC7",
@@ -3913,165 +3781,11 @@
       },
       {
         "version": "2.3.0.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.3.0.0/Release.zip",
         "checksum": "8934558FB50AE4644B218D615E138DE4",
         "timestamp": "2025-04-18T20:05:09",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.5.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.2.5.0/Release.zip",
-        "checksum": "7C0B125419FE4D66F02D4732431B5B03",
-        "timestamp": "2025-03-21T18:24:47",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.4.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.2.4.0/Release.zip",
-        "checksum": "00D936D548C5B69D2ECFBFCD5B137800",
-        "timestamp": "2025-03-19T22:30:05",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.3.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.2.3.0/Release.zip",
-        "checksum": "F81177C99400F2C27711C93B45C608E5",
-        "timestamp": "2025-03-10T22:08:42",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.2.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.2.2.0/Release.zip",
-        "checksum": "DD07F0B4CC30B1578B378EBD8B1B55D0",
-        "timestamp": "2025-03-02T17:19:11",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.2.1.0/Release.zip",
-        "checksum": "DD98E85243360203BFE0D58C609CD57B",
-        "timestamp": "2025-03-02T09:02:34",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.0.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.2.0.0/Release.zip",
-        "checksum": "6331B77C48739DE135EEEA507B488831",
-        "timestamp": "2025-03-01T16:54:11",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.1.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.1.1.0/Release.zip",
-        "checksum": "C85E8248206D93961222C40B36468465",
-        "timestamp": "2025-02-24T22:38:50",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.1.0/Release.zip",
-        "checksum": "FB9BD97D1A334868262B00D2C004C48F",
-        "timestamp": "2025-02-17T21:46:44",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.5",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.0.5/Release.zip",
-        "checksum": "321F3712529F814A69E664D08D668432",
-        "timestamp": "2025-02-12T23:41:14",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.4",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.0.4/Release.zip",
-        "checksum": "6E77E7BE63D99434FE060220EAC95336",
-        "timestamp": "2025-02-12T23:25:58",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.3",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.0.3/Release.zip",
-        "checksum": "2C86BBFE422D29B9B72A91EF0B668DBC",
-        "timestamp": "2025-02-12T13:42:26",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.2",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.0.2/Release.zip",
-        "checksum": "5414E54258E0882065999FEE0323FD67",
-        "timestamp": "2025-02-11T20:46:05",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.1",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.0.1/Release.zip",
-        "checksum": "477D24C1C8349F82489179DAC9166579",
-        "timestamp": "2025-02-10T15:39:59",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.0.0/Release.zip",
-        "checksum": "620715013438587C5D640C8AF2486887",
-        "timestamp": "2025-02-09T18:37:55",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
@@ -4087,8 +3801,30 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Plugin Pages.png",
     "versions": [
       {
+        "version": "2.3.2.0",
+        "changelog": "No changelog supplied",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.3.2.0/Release-10.10.7.zip",
+        "checksum": "C6D5D244BD3928144C403A823D6CA2D1",
+        "timestamp": "2025-08-23T20:22:52",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.1.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.3.1.0/Release.zip",
+        "checksum": "37195D0FB1F5E2446204A03256AE21C0",
+        "timestamp": "2025-04-19T20:30:49",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.1.0",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.3.1.0/Release.zip",
         "checksum": "37195D0FB1F5E2446204A03256AE21C0",
@@ -4099,110 +3835,11 @@
       },
       {
         "version": "2.3.0.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.3.0.0/Release.zip",
         "checksum": "33D11AE3FCA9A9819C229C01B111EB4A",
         "timestamp": "2025-04-18T20:02:45",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.3.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.2.3.0/Release.zip",
-        "checksum": "3B4D9E0C23B45493A32BC42357C4B3BA",
-        "timestamp": "2025-04-12T19:39:09",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.2.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.2.2.0/Release.zip",
-        "checksum": "9295BB4643658C83742C041F23280596",
-        "timestamp": "2025-03-10T22:08:43",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.2.1.0/Release.zip",
-        "checksum": "F479286D90FAC23042CAB4DFD6F0F142",
-        "timestamp": "2025-03-02T09:02:34",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.0.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.2.0.0/Release.zip",
-        "checksum": "6FD824ABE16F0B5A04A27799A79EE16D",
-        "timestamp": "2025-03-01T16:54:58",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.1.0/Release.zip",
-        "checksum": "53B89AD9A74D27F5F64734C9A183A6F8",
-        "timestamp": "2025-02-17T21:46:44",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.3",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.0.3/Release.zip",
-        "checksum": "77311A0A808BBFCFE5EA55F89BC2BFF1",
-        "timestamp": "2025-02-12T23:50:37",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.2",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.0.2/Release.zip",
-        "checksum": "9DEBA6E73F3E3997501A52F790A3EF56",
-        "timestamp": "2025-02-12T23:25:59",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.1",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.0.1/Release.zip",
-        "checksum": "EECAD42E0E464E11BB19EE54BA356ED8",
-        "timestamp": "2025-02-12T13:42:26",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.0.0/Release.zip",
-        "checksum": "9C49D33158A93D4CDEC85112D2B2101B",
-        "timestamp": "2025-02-09T18:35:20",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
@@ -4218,8 +3855,19 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
       {
+        "version": "2.3.4.0",
+        "changelog": "No changelog supplied",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.4.0/Release-10.10.7.zip",
+        "checksum": "70F54733E3482245DF2F568F7B4701A2",
+        "timestamp": "2025-08-23T21:55:35",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.3.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.3.0/Release.zip",
         "checksum": "998762F52D83F02B7F6DE5AEEC02EB30",
@@ -4230,7 +3878,7 @@
       },
       {
         "version": "2.3.2.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.2.0/Release.zip",
         "checksum": "F1E6AA0BC2F83EA8B3AB527E04C680D6",
@@ -4241,7 +3889,7 @@
       },
       {
         "version": "2.3.1.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.1.0/Release.zip",
         "checksum": "9AFE10D7C082362B11FB7B8EF8D0DE30",
@@ -4252,198 +3900,11 @@
       },
       {
         "version": "2.3.0.0",
-        "changelist": "TODO",
+        "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.0.0/Release.zip",
         "checksum": "DBCEBAFEAA8E951438F9674CAD57321C",
         "timestamp": "2025-04-18T20:02:43",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.10.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.10.0/Release.zip",
-        "checksum": "F3CBE4D6B481F49991AB1668282839B8",
-        "timestamp": "2025-04-18T14:20:50",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.9.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.9.0/Release.zip",
-        "checksum": "DB6DCFFB1EC6D68CDC5DB1BCCAFA1F90",
-        "timestamp": "2025-03-27T23:25:32",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.8.1",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.8.1/Release.zip",
-        "checksum": "6B41282CA581D4C297131FC12D943482",
-        "timestamp": "2025-03-26T22:53:44",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.8.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.8.0/Release.zip",
-        "checksum": "C775E61B2738CA8FAA5AE0674E7452DA",
-        "timestamp": "2025-03-26T22:29:34",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.7.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.7.0/Release.zip",
-        "checksum": "295CFB63CF2C1AC9555551D68998806A",
-        "timestamp": "2025-03-26T21:52:19",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.6.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.6.0/Release.zip",
-        "checksum": "3800B291F1326B0773956F80AD2B7358",
-        "timestamp": "2025-03-25T22:52:25",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.5.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.5.0/Release.zip",
-        "checksum": "511C376EB208652F06060A86CC92160E",
-        "timestamp": "2025-03-25T21:56:28",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.4.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.4.0/Release.zip",
-        "checksum": "D155D8B9FD8FF5230E4909493EFF90BE",
-        "timestamp": "2025-03-10T22:25:05",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.3.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.3.0/Release.zip",
-        "checksum": "C8DFB0BC70C0CACF799D2B86360D8EAD",
-        "timestamp": "2025-03-10T22:08:42",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.2.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.2.0/Release.zip",
-        "checksum": "225098ABBA34C4583C267567F14FA7C4",
-        "timestamp": "2025-03-02T09:11:03",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.1.0/Release.zip",
-        "checksum": "E31CB2FC91554362B28A9AD027363B2D",
-        "timestamp": "2025-03-02T09:02:33",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.0.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.2.0.0/Release.zip",
-        "checksum": "83A0B9C71DC9FDB5782FA8540CDCAFBF",
-        "timestamp": "2025-03-01T17:07:46",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.1.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.1.1.0/Release.zip",
-        "checksum": "4B1755157EAAE155DE52311E850B3225",
-        "timestamp": "2025-02-24T23:49:49",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.1.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.1.0/Release.zip",
-        "checksum": "0F7856C54BE64D7B48FFFAFF6BAB1D95",
-        "timestamp": "2025-02-17T21:46:44",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.2",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.0.2/Release.zip",
-        "checksum": "DF6D97F0E284DF76137AF771F27D4833",
-        "timestamp": "2025-02-12T23:25:58",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.1",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.0.1/Release.zip",
-        "checksum": "60C536E7C7879F48DD58AAA0F9975827",
-        "timestamp": "2025-02-12T13:42:25",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.0.0",
-        "changelist": "TODO",
-        "targetAbi": "10.10.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.0.0/Release.zip",
-        "checksum": "2A1DEA719D23341A736C450552C68C5B",
-        "timestamp": "2025-02-09T18:35:42",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
@@ -4570,6 +4031,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Apple Music.png",
     "image": "image.png",
     "versions": [
+      {
+        "version": "3.0.4.9",
+        "changelog": "Maintenance:\n  - Rename `iTunes` to `Apple Music` in code\n  - Clean up web scraping implementation (should now be more reliable)\n  - Update dependencies\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/apple-music/apple-music_3.0.4.9.zip",
+        "checksum": "7a901cc548f9d02c10823d2b0f4a724e",
+        "timestamp": "2025-08-23T07:02:58Z"
+      },
       {
         "version": "3.0.2.1",
         "changelog": "Fix album images having black background.\n",
@@ -11099,6 +10568,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JellyfinEnhanced.png",
     "versions": [
+      {
+        "checksum": "e0a055673b6ece00d413b40900df6266",
+        "changelog": "- New UI Setting: Add available languages with flags in Item Details page\n - Add a new 'Gigantic' Subtitle style and change subtitle units to for better scaling\n - New Schortcut for opening jellyfin enhanced panel, long press user icon in the header (useful for touch devices)\n - Minor: Increase toast blur for better readability\n - Minor: Add debounce for elsewhere panel autocomplete.",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/5.3.1.0/Jellyfin.Plugin.JellyfinEnhanced_5.3.1.0.zip",
+        "timestamp": "2025-08-23T04:36:40Z",
+        "version": "5.3.1.0"
+      },
       {
         "checksum": "cd71009dfc17eeda28ef566c1178594e",
         "changelog": "- Customizable Shortcuts: The server admin can now set overrides for the existing shortcuts, allowing for personalized key bindings.\n - Improve Elsewhere API failure messages",
