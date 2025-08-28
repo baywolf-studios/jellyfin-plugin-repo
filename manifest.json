@@ -3921,6 +3921,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
       {
+        "version": "2.3.5.1",
+        "changelog": "No changelog supplied",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.5.1/Release-10.10.7.zip",
+        "checksum": "B916A828E7E61DA21EBDC2D44E42C8E8",
+        "timestamp": "2025-08-27T18:59:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.5.0",
         "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
@@ -8800,12 +8811,12 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Tweaks.png",
     "versions": [
       {
-        "checksum": "f28dcd68d3af734fc9e88de1267fe5df",
-        "changelog": "- Add an option to enable Details Banner by Default",
+        "checksum": "9d28727ede403514764b915386fb843c",
+        "changelog": "- Add public config endpoint and update JS to use it, was preventing some users to access the plugin configuration",
         "targetAbi": "10.9.4.0",
-        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/2.1.1.0/Jellyfin.Plugin.JellyTweaks.zip",
-        "timestamp": "2025-08-21T17:30:38Z",
-        "version": "2.1.1.0"
+        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/2.1.2.0/Jellyfin.Plugin.JellyTweaks.zip",
+        "timestamp": "2025-08-27T16:06:09Z",
+        "version": "2.1.2.0"
       },
       {
         "checksum": "6ae17ddf411fc562b690d12c97389987",
@@ -9072,6 +9083,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Auto Collections.jpg",
     "category": "General",
     "versions": [
+      {
+        "version": "0.0.2.56",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.56)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.56/auto-collections-0.0.2.56.zip",
+        "checksum": "5c9cda5bccd2f3a923ea623207f48233",
+        "timestamp": "2025-08-17T17:43:19Z"
+      },
       {
         "version": "0.0.2.46",
         "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.46)\n",
@@ -10645,6 +10664,22 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JellyfinEnhanced.png",
     "versions": [
+      {
+        "checksum": "8c35a30b6da0ae024b6fdc9632b628dd",
+        "changelog": "- Improve Jellyseer Results injection logic, fixes a bug where container is injected even before search results from Jellyfin are available.\n - Fixes a bug where TMDB links open in app making it impossible to navigate elsewhere\n - Fixes Jellyseerr section not rendering properly on some themes\n - Change the color of Jellyseerr Request button. ",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/6.2.0.0/Jellyfin.Plugin.JellyfinEnhanced_6.2.0.0.zip",
+        "timestamp": "2025-08-27T16:13:12Z",
+        "version": "6.2.0.0"
+      },
+      {
+        "checksum": "4fbdafdb94145d3e077e7c1e6963a481",
+        "changelog": "- Improve Jellyseer Results injection logic, fixes a bug where container is injected even before search results from Jellyfin are available.\n - Fixes a bug where TMDB links open in app making it impossible to navigate elsewhere\n - Fixes Jellyseerr section not rendering properly on some themes\n - Change the color of Jellyseerr Request button. ",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/6.1.1.0/Jellyfin.Plugin.JellyfinEnhanced_6.1.1.0.zip",
+        "timestamp": "2025-08-27T05:31:11Z",
+        "version": "6.1.1.0"
+      },
       {
         "checksum": "a8db0b7c56e6849f3e5ffff8345cd1cb",
         "changelog": "- *One-Time Setup*: Admins configure the connection once with an API key. No more per-user or per-device logins.\n - *Zero User Configuration*: The integration works automatically for all users across all devices without requiring them to enter any credentials.\n - The API key is managed securely on the server, making the connection more robust and reliable.",
