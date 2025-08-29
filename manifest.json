@@ -5007,6 +5007,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JellyfinEnhanced.png",
     "versions": [
       {
+        "checksum": "2d217df3c4583541369ee9a38f2fae46",
+        "changelog": "- Double click/tap on the Jellyseerr Icon to toggle filter to display only Jellyseerr results.\n - Minor: Add more Logging for both client and server. ",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/6.3.0.0/Jellyfin.Plugin.JellyfinEnhanced_6.3.0.0.zip",
+        "timestamp": "2025-08-28T17:19:12Z",
+        "version": "6.3.0.0"
+      },
+      {
         "checksum": "8c35a30b6da0ae024b6fdc9632b628dd",
         "changelog": "- Improve Jellyseer Results injection logic, fixes a bug where container is injected even before search results from Jellyfin are available.\n - Fixes a bug where TMDB links open in app making it impossible to navigate elsewhere\n - Fixes Jellyseerr section not rendering properly on some themes\n - Change the color of Jellyseerr Request button. ",
         "targetAbi": "10.9.4.0",
@@ -10520,6 +10528,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.3.6.0",
+        "changelog": "No changelog supplied",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.6.0/Release-10.10.7.zip",
+        "checksum": "A231E2D7B2A6C12E50EA19EE70E2E289",
+        "timestamp": "2025-08-28T16:11:18",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.3.5.1",
         "changelog": "No changelog supplied",
