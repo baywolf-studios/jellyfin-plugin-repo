@@ -10620,6 +10620,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
       {
+        "version": "2.3.7.0",
+        "changelog": "No changelog supplied",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.7.0/Release-10.10.7.zip",
+        "checksum": "225535403BC9EDEF4D5F5B40000DCEB0",
+        "timestamp": "2025-09-07T21:58:07",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.6.0",
         "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
