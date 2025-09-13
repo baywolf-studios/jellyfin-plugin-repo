@@ -1517,6 +1517,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Intro Skipper.png",
     "versions": [
       {
+        "version": "1.10.10.24",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.10/v1.10.10.24)\n",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.10/v1.10.10.24/intro-skipper-v1.10.10.24.zip",
+        "checksum": "7f75d41a472c387032c30cbe71e72700",
+        "timestamp": "2025-09-12T18:32:28Z"
+      },
+      {
         "version": "1.10.10.23",
         "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.10/v1.10.10.23)\n",
         "targetAbi": "10.10.7.0",
@@ -7429,6 +7437,14 @@
     "owner": "Viperinius",
     "category": "Metadata",
     "versions": [
+      {
+        "version": "1.14.0.0",
+        "changelog": "# Changelog\n\n## [1.14.0.0] - 2025-09-12\n\n### Added\n\n- New matching method via MusicBrainz and ISRC IDs\n- The plugin settings page now contains a checkbox to activate the new MusicBrainz matching method\n- Support for the import of the \"Liked Songs\" section from Spotify\n\n### Changed\n\n- The current scopes of the Spotify auth token are now displayed on the plugin settings page",
+        "targetAbi": "10.10.3.0",
+        "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.14.0.0/spotify-import_1.14.0.0.zip",
+        "checksum": "0efb38446a50dd533c225f0825a620df",
+        "timestamp": "2025-09-12T17:14:07Z"
+      },
       {
         "version": "1.13.1.0",
         "changelog": "# Changelog\n\n## [1.13.1.0] - 2025-08-14\n\n### Fixed\n\n- Fix missing progress reporting of import task\n- Fix wrong parameters for some logging entries (see issue #63)\n- Fix procedure to aquire auth token for alternative Spotify provider after recent changes made by Spotify (again)",
