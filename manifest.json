@@ -5687,6 +5687,14 @@
     "overview": "myanimelist metadata provider",
     "versions": [
       {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.0",
+        "checksum": "493387e0001553a547332800cb505336",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.0/myanimelist_6.3.0.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-09-13T19:23:17Z",
+        "version": "6.3.0"
+      },
+      {
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.2.4",
         "checksum": "a10a0584a25bbee1992436442dfd568f",
         "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.2.4/myanimelist_6.2.4.zip",
@@ -6664,6 +6672,22 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Streamyfin.png",
     "versions": [
       {
+        "version": "0.60.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/streamyfin/jellyfin-plugin-streamyfin/releases/tag/0.60.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/streamyfin/jellyfin-plugin-streamyfin/releases/download/0.60.0.0/streamyfin-0.60.0.0.zip",
+        "checksum": "77e74bcd8feb5d455e151cf5573d1bb1",
+        "timestamp": "2025-09-13T15:35:21Z"
+      },
+      {
+        "version": "0.59.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/streamyfin/jellyfin-plugin-streamyfin/releases/tag/0.59.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/streamyfin/jellyfin-plugin-streamyfin/releases/download/0.59.0.0/streamyfin-0.59.0.0.zip",
+        "checksum": "ce59af6104a9a5a88692069217e27a8d",
+        "timestamp": "2025-09-13T14:48:36Z"
+      },
+      {
         "version": "0.58.0.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/streamyfin/jellyfin-plugin-streamyfin/releases/tag/0.58.0.0)\n",
         "targetAbi": "10.9.9.0",
@@ -7437,6 +7461,14 @@
     "owner": "Viperinius",
     "category": "Metadata",
     "versions": [
+      {
+        "version": "1.14.1.0",
+        "changelog": "# Changelog\n\n## [1.14.1.0] - 2025-09-13\n\n### Fixed\n\n- Excessive memory use when updating the ISRC / MusicBrainz cache in some situations",
+        "targetAbi": "10.10.3.0",
+        "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.14.1.0/spotify-import_1.14.1.0.zip",
+        "checksum": "a44aa4a8a35d74cc2118d3a2d6f95830",
+        "timestamp": "2025-09-13T13:27:20Z"
+      },
       {
         "version": "1.14.0.0",
         "changelog": "# Changelog\n\n## [1.14.0.0] - 2025-09-12\n\n### Added\n\n- New matching method via MusicBrainz and ISRC IDs\n- The plugin settings page now contains a checkbox to activate the new MusicBrainz matching method\n- Support for the import of the \"Liked Songs\" section from Spotify\n\n### Changed\n\n- The current scopes of the Spotify auth token are now displayed on the plugin settings page",
