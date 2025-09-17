@@ -4246,6 +4246,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "0.0.2.67",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.67)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.67/auto-collections-0.0.2.67.zip",
+        "checksum": "52c37fa2ddaa97f1ec4be317f057888b",
+        "timestamp": "2025-09-16T15:35:04Z"
+      },
+      {
         "version": "0.0.2.56",
         "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.56)\n",
         "targetAbi": "10.9.9.0",
@@ -5030,6 +5038,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JellyfinEnhanced.png",
     "versions": [
+      {
+        "changelog": "- Add Genre Tags\n - Add a closebutton for pausescreen to remove the overlay #50\n - Create Hungarian Translations (#52, #49)\n - Add text shadow to subtitle styles #47",
+        "targetAbi": "10.10.0.0",
+        "version": "7.4.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/7.4.0.0/Jellyfin.Plugin.JellyfinEnhanced.zip",
+        "checksum": "c2456f8fc089e6de0ad2e6b4c21c6a73",
+        "timestamp": "2025-09-16T05:03:00Z"
+      },
       {
         "changelog": "- feat: Watchlist (#48)\n - Depends on Avaiability of Custom Tabs",
         "targetAbi": "10.10.0.0",
@@ -10435,6 +10451,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Custom Tabs.png",
     "versions": [
       {
+        "version": "0.1.5.0",
+        "changelog": "No changelog supplied",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.1.5.0/Release-10.10.7.zip",
+        "checksum": "F9E55F2E46211E5DBD973387178BAA9D",
+        "timestamp": "2025-09-16T19:23:29",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "0.1.4.0",
         "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
@@ -10499,6 +10526,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Collection Sections.png",
     "versions": [
+      {
+        "version": "2.2.2.0",
+        "changelog": "No changelog supplied",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.2.2.0/Release-10.10.7.zip",
+        "checksum": "AC9B4774F976474B63A5FD46B617B92D",
+        "timestamp": "2025-09-09T20:01:55",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.2.1.0",
         "changelog": "No changelog supplied",
@@ -10672,6 +10710,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Plugin Pages.png",
     "versions": [
+      {
+        "version": "2.3.3.0",
+        "changelog": "No changelog supplied",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.3.3.0/Release-10.10.7.zip",
+        "checksum": "DE0E6A8C3915F6A94262E566232DE7DC",
+        "timestamp": "2025-09-16T21:46:20",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.3.2.0",
         "changelog": "No changelog supplied",
