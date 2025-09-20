@@ -1312,6 +1312,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Editor's Choice.png",
     "versions": [
       {
+        "version": "1.3.3.0",
+        "changelog": "Updates compatability with FileTransformation. Fixes bug where un-rated items don't show despite minimum rating filter set to zero. Fixes bug loading on some TVs, adds option to hide slider on TV mode.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.3.3.0/EditorsChoicePlugin-v1.3.3.0.zip",
+        "checksum": "84b3f11f5799af0b483b8f2c638502bd",
+        "timestamp": "2025-09-20 13:02:00"
+      },
+      {
         "version": "1.3.2.0",
         "changelog": "Improves function of 'new mode'. TV shows with an end date within the selected time period will be included. Restores 'open in new tab' ability to slider. Replaces 1.3.1.0 release which also: Improves FileTransformation mode reliability, adds heading option, and adds more options to 'New' mode",
         "targetAbi": "10.10.6.0",
@@ -5718,6 +5726,22 @@
     "owner": "Ryan Dash",
     "overview": "myanimelist metadata provider",
     "versions": [
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.3",
+        "checksum": "cd04e986266864e3845217a0936443d8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.3/myanimelist_6.3.3.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-09-19T03:00:06Z",
+        "version": "6.3.3"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.2",
+        "checksum": "da26b64d5f78ada048c1484befe1b079",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.2/myanimelist_6.3.2.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-09-19T02:52:35Z",
+        "version": "6.3.2"
+      },
       {
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.1",
         "checksum": "f7a73997e544e6749ba0b38706ec8885",
