@@ -1698,6 +1698,14 @@
     "owner": "kookxiang",
     "versions": [
       {
+        "timestamp": "2025-09-26T14:03:40",
+        "changelog": "注：这可能是最后一个支持 Jellyfin 10.10 的版本，目前看来 Jellyfin 10.11 API 有变化，待正式版发布后插件会及时适配\r\n\r\n## What's Changed\r\n* fix: More robust error message matching by @RandomNamer in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/195\r\n* feat: add collection by subject's relation by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/160\r\n* feat: add ui for controlling rating refresh intervals by @RandomNamer in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/203\r\n* feat: try match following seasons by name when first season is not pr… by @RandomNamer in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/202\r\n* Fix：部分文件季号刮削错误 by @wsgh0202 in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/208\r\n* refactor: separate the basic parser by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/163\r\n* refactor: extract local configuration handling to LocalConfigurationH… by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/210\r\n\r\n## New Contributors\r\n* @wsgh0202 made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/208\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.1...1.7.2",
+        "version": "1.7.2.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.7.2.0.zip",
+        "checksum": "967117c229dfdd238fe7bd122e265cab",
+        "targetAbi": "10.9.0.0"
+      },
+      {
         "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.7.1.0.zip",
         "changelog": "## What's Changed\r\n\r\n- 优化离线数据库更新逻辑\r\n- 近期放送的剧集始终使用在线 API 获取\r\n- 增加 [公共标签](https://bgm.tv/group/topic/406595) 支持\r\n- 修复 OAuth 授权时间显示不正确的问题（不影响正常使用）\r\n- 修正查询图片时没有携带登录态的问题 #181\r\n- 代码结构 / 打包流程调整 #159 \r\n\r\n最新 CI 测试包可以在 https://github.com/kookxiang/jellyfin-plugin-bangumi/releases/tag/ci 下载\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.0...1.7.1",
         "targetAbi": "10.9.0.0",
@@ -5038,6 +5046,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JellyfinEnhanced.png",
     "versions": [
+      {
+        "changelog": "- Add missed languages to mapping\n - Filter out 'person' results in Jellyseer search API",
+        "targetAbi": "10.10.7.0",
+        "version": "7.6.2.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/7.6.2.0/Jellyfin.Plugin.JellyfinEnhanced.zip",
+        "checksum": "27868FA98BDEA74E0BD514DF439A7CF2",
+        "timestamp": "2025-09-26T15:51:30"
+      },
       {
         "changelog": "- Fix skip button observer management",
         "targetAbi": "10.10.7.0",
