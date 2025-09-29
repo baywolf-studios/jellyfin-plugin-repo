@@ -1616,6 +1616,14 @@
     "category": "music",
     "versions": [
       {
+        "version": "9.0.0.0",
+        "changelog": "Jellyfin LastFM build v9.0.0.0",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/9.0.0.0/lastfm_9.0.0.0.zip",
+        "checksum": "231cef743567e156db542d04c9088711",
+        "timestamp": "2025-09-28T15:15:02Z"
+      },
+      {
         "version": "8.2.0.0",
         "changelog": "Jellyfin LastFM build v8.2.0.0",
         "targetAbi": "10.9.0.0",
@@ -5055,6 +5063,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JellyfinEnhanced.png",
     "versions": [
       {
+        "changelog": "- Allow requests for seasons with status 7\n - Add option to disable all keyboard shortcuts",
+        "targetAbi": "10.10.7.0",
+        "version": "7.7.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/7.7.0.0/Jellyfin.Plugin.JellyfinEnhanced.zip",
+        "checksum": "08199D0A312BD0A703316A1B224A990E",
+        "timestamp": "2025-09-28T08:59:08"
+      },
+      {
         "changelog": "- Add missed languages to mapping\n - Filter out 'person' results in Jellyseer search API",
         "targetAbi": "10.10.7.0",
         "version": "7.6.2.0",
@@ -5758,6 +5774,14 @@
     "owner": "Ryan Dash",
     "overview": "myanimelist metadata provider",
     "versions": [
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.4",
+        "checksum": "353d02c91ccecf392a0f8a4006d65885",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.4/myanimelist_6.3.4.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-09-28T18:01:33Z",
+        "version": "6.3.4"
+      },
       {
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.3",
         "checksum": "cd04e986266864e3845217a0936443d8",
