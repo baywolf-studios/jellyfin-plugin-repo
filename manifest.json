@@ -5062,14 +5062,22 @@
     ]
   },
   {
-    "name": "JellyfinEnhanced",
+    "name": "Jellyfin Enhanced",
     "guid": "f69e946a-4b3c-4e9a-8f0a-8d7c1b2c4d9b",
     "description": "A combination of the Jellyfin Enhanced and Jellyfin Elsewhere userscripts, providing a comprehensive set of tweaks and features for Jellyfin.\n\nhttps://github.com/n00bcodr/Jellyfin-Enhanced",
     "overview": "Jellyfin Enhanced and Jellyfin Elsewhere for a better Jellyfin experience.",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JellyfinEnhanced.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
+      {
+        "changelog": "- Add TMDB API proxy endpoint\n - Update manifest name to 'Jellyfin Enhanced' to fix auto-update\n - Add configurable custom splash screen feature",
+        "targetAbi": "10.10.7.0",
+        "version": "7.8.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/7.8.0.0/Jellyfin.Plugin.JellyfinEnhanced.zip",
+        "checksum": "0273623BB845DBEA33AD558B243CBF8A",
+        "timestamp": "2025-09-30T13:05:09"
+      },
       {
         "changelog": "- Allow requests for seasons with status 7\n - Add option to disable all keyboard shortcuts",
         "targetAbi": "10.10.7.0",
