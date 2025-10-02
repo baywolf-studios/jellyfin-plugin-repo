@@ -7621,6 +7621,14 @@
     "category": "Metadata",
     "versions": [
       {
+        "version": "1.15.0.0",
+        "changelog": "# Changelog\n\n## [1.15.0.0] - 2025-10-01\n\n### Added\n\n- Also ignore diacritics when using match level Ignore Punctuation + Case (or further relaxed levels)\n\n### Changed\n\n- Manual map interface now allows pasting in JSON (e.g. missing tracks file entries)\n- Manual map entries can now be specified either be the previous information or just using the Spotify track ID / URI, similar to how playlist URIs are handled when configuring the plugin",
+        "targetAbi": "10.10.3.0",
+        "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.15.0.0/spotify-import_1.15.0.0.zip",
+        "checksum": "9ffe2ec422148bfba355e93f380f06ae",
+        "timestamp": "2025-10-01T19:58:02Z"
+      },
+      {
         "version": "1.14.1.0",
         "changelog": "# Changelog\n\n## [1.14.1.0] - 2025-09-13\n\n### Fixed\n\n- Excessive memory use when updating the ISRC / MusicBrainz cache in some situations",
         "targetAbi": "10.10.3.0",
