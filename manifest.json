@@ -930,6 +930,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.2.0.0",
+        "changelog": "修复iqiyi，废弃弹弹play",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.2.0/danmu_2.2.0.0.zip",
+        "checksum": "dc2d8d2383e84e5b5d8fe46f8823b1f0",
+        "timestamp": "2025-10-02T10:25:31"
+      },
+      {
         "version": "2.1.1.0",
         "changelog": "弹弹play接口限速，去掉定时更新功能，降低弹弹play服务器压力",
         "targetAbi": "10.9.0.0",
