@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const userAgent = "Jellyfin-Server/10.10.7"; // Required for some repositories
 
 const imagesDir = path.join(__dirname, 'images');
-const imageBaseUrl = 'https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/';
+const imageBaseUrl = 'https://baywolf-studios.github.io/jellyfin-plugin-repo/images/';
 
 async function getSources(){
     let sources = [];
