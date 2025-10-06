@@ -6,5 +6,5 @@
 2. Naviage to to catalogue settings
 4. Add the repository
 ```
-https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/manifest.json
+https://baywolf-studios.github.io/jellyfin-plugin-repo/manifest.json
 ```
