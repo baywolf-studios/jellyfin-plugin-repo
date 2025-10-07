@@ -8,3 +8,4 @@
 ```
 https://baywolf-studios.github.io/jellyfin-plugin-repo/manifest.json
 ```
+ 
