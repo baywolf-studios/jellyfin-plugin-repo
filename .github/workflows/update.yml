@@ -1,6 +1,7 @@
 name: Manifest updater
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
   schedule:
